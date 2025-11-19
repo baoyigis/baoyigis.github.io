@@ -1,146 +1,152 @@
-- title: 基本信息
+- title: Basic Information
   type: map
   contents:
-    - name: 姓名
-      value: 鲍毅
-    - name: 出生年月
-      value: 1995年7月
-    - name: 邮箱
-      value: njubaoyi@gmail.com
-    - name: 现任职位
-      value: 南京大学助理教授(特聘研究员)
-    - name: 研究方向
-      value: 城市时空大数据挖掘与可持续发展
+    - name: Name
+      value: Yi Bao
+    - name: Email
+      value: njubaoyi AT gmail.com
+    - name: Current Position
+      value: Assistant Professor at Nanjing University
+    - name: Research Interests
+      value: Spatiotemporal Big Data Mining and Sustainable Development
 
-- title: 教育经历
+- title: Education
   type: time_table
   contents:
-    - title: 博士
-      institution: 北京大学，地图学与地理信息系统
+    - title: Ph.D.
+      institution: Peking University, Cartography and Geographic Information Systems
       year: 2018.09 - 2023.07
       description:
-        - 导师：黄舟
-        - 获得北京大学优秀博士论文
-        - 获得北京大学优秀毕业生
-    - title: 学士
-      institution: 中国地质大学(武汉)，信息工程
+        - Supervisor: Zhou Huang
+        - Received Outstanding Doctoral Dissertation Award from Peking University
+        - Received Outstanding Graduate Award from Peking University
+    - title: B.S.
+      institution: China University of Geosciences (Wuhan), Information Engineering
       year: 2014.09 - 2018.07
       description:
-        - 获得中国地质大学(武汉)优秀毕业生
+        - Received Outstanding Graduate Award from China University of Geosciences (Wuhan)
 
-- title: 研究经历
+- title: Research Experience
   type: time_table
   contents:
-    - title: 助理教授(特聘研究员)
-      institution: 南京大学，前沿科学学院(空间地球科学研究院)
-      year: 2025.12 - 至今
+    - title: Assistant Professor
+      institution: Nanjing University, School of Advanced Sciences (Institute of Space Earth Science)
+      year: 2025.12 - Present
       description:
-        - 负责城市时空大数据与可持续发展相关研究
-    - title: 博雅博士后
-      institution: 北京大学，遥感所
+        - Responsible for research on urban spatiotemporal big data and sustainable development
+    - title: Boya Postdoctoral Fellow
+      institution: Peking University, Institute of Remote Sensing
       year: 2023.12 - 2025.11
       description:
-        - 合作导师：李培军
-        - 获得博士后创新人才支持计划(博新计划)
+        - Co-supervisor: Peijun Li
+        - Received Postdoctoral Innovation Talent Support Program (BoXin Program)
 
-- title: 科研项目
+- title: Research Projects
   type: time_table
   contents:
-    - title: 博士后创新人才支持计划
-      institution: 全国博士后管委会
+    - title: Postdoctoral Innovation Talent Support Program
+      institution: National Postdoctoral Committee
       year: 2024.06 - 2025.11
       description:
-        - 基于深度学习的高分辨率建成环境物质存量时空演化及人-地关系动态模拟
-        - 主持
-    - title: 国家自然科学基金青年项目
-      institution: 国家自然科学基金委员会
+        - Spatiotemporal evolution of high-resolution built environment material stock and dynamic simulation of human-land relationship based on deep learning
+        - Principal Investigator
+    - title: National Natural Science Foundation of China Youth Program
+      institution: National Natural Science Foundation of China
       year: 2025.01 - 2027.12
       description:
-        - 顾及大范围与高分辨率的全国城市建成环境物质存量估算方法及应用
-        - 主持
-    - title: 国家重点研发计划
-      institution: 中华人民共和国科学技术部
+        - Estimation method and application of national urban built environment material stock considering large-scale and high-resolution
+        - Principal Investigator
+    - title: National Key R&D Program
+      institution: Ministry of Science and Technology of the People's Republic of China
       year: 2023.12 - 2025.11
       description:
-        - 重点项目安全综合遥感监测关键技术及应用示范
-        - 子课题负责人
-    - title: 武汉大学测绘遥感信息工程国家重点实验室开放基金
-      institution: 武汉大学
+        - Key technologies and application demonstration of comprehensive remote sensing monitoring for project safety
+        - Sub-project Leader
+    - title: Open Fund of State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University
+      institution: Wuhan University
       year: 2025.01 - 2026.12
       description:
-        - 面向灾害监测预警的多模态知识图谱构建与协同分析
-        - 主持
-    - title: 中国博士后科学基金第77批面上资助
-      institution: 中国博士后科学基金会
+        - Multi-modal knowledge graph construction and collaborative analysis for disaster monitoring and early warning
+        - Principal Investigator
+    - title: China Postdoctoral Science Foundation 77th Batch General Funding
+      institution: China Postdoctoral Science Foundation
       year: 2023.12 - 2025.11
       description:
-        - MaaS 融合多源地理大数据的长时序城市物质存量精细化估算与格局演变研究
-        - 主持
+        - Fine-grained estimation and pattern evolution of long-term urban material stock based on MaaS fusion of multi-source geographic big data
+        - Principal Investigator
 
-- title: 荣誉与奖励
+- title: Honors and Awards
   type: time_table
   contents:
     - year: 2024
       items:
-        - 博士后创新人才支持计划(博新计划)
+        - Postdoctoral Innovation Talent Support Program (BoXin Program)
     - year: 2023
       items:
-        - 北京大学优秀博士论文
-        - 北京大学优秀毕业生
+        - Outstanding Doctoral Dissertation Award from Peking University
+        - Outstanding Graduate Award from Peking University
     - year: 2022
       items:
-        - 北京大学优秀科研奖
-        - 北京大学遥感所优秀学术论文奖
+        - Outstanding Research Award from Peking University
+        - Outstanding Academic Paper Award from Institute of Remote Sensing, Peking University
     - year: 2020
       items:
-        - 北京大学优秀科研奖
-        - 北京大学遥感所优秀学术论文奖
-        - 北京大学廖凯原奖学金
+        - Outstanding Research Award from Peking University
+        - Outstanding Academic Paper Award from Institute of Remote Sensing, Peking University
+        - Liao Kaiyuan Scholarship from Peking University
     - year: 2018
       items:
-        - 中国地质大学(武汉)优秀毕业生
+        - Outstanding Graduate Award from China University of Geosciences (Wuhan)
     - year: 2016
       items:
-        - 国家奖学金
+        - National Scholarship
     - year: 2015
       items:
-        - 国家奖学金
-        - 中国地质大学(武汉)第九届李四光计划
+        - National Scholarship
+        - 9th Siguang Li Plan of China University of Geosciences (Wuhan)
 
-- title: 研究方向
+- title: Research Interests
   type: nested_list
   contents:
-    - title: 城市时空大数据挖掘与可持续发展
+    - title: Urban Spatiotemporal Big Data Mining and Sustainable Development
       items:
-        - 通过挖掘城市时空大数据，揭示城市发展的规律和趋势
-        - 为城市规划和决策提供科学依据
-        - 实现城市的可持续发展和智能化建设
-    - title: 高分辨率城市建成环境研究
+        - Revealing patterns and trends of urban development by mining urban spatiotemporal big data
+        - Providing scientific basis for urban planning and decision-making
+        - Achieving sustainable development and intelligent construction of cities
+    - title: Exploration of Interaction Mechanisms between Built Environment and Human Activities, Socio-economic Attributes
       items:
-        - 通过结合机器学习与地理大数据计算高分辨率城市建成环境物质存量
-        - 分布模式，评估城市矿产潜力
-        - 城市演化方向以及城市可持续发展模式
-    - title: 建成环境与人类活动、社会经济属性的相互影响机制探索
+        - Analyzing the association between built environment and human activities, socio-economic attributes
+        - Exploring the impact of urban built environment on human activities and socio-economics and their interaction mechanisms
+        - Enhancing resource use efficiency to provide scientific basis for urban sustainable development
+    - title: Algorithms and Applications of Geographic Intelligence
       items:
-        - 分析建成环境与人类活动、社会经济属性的关联
-        - 探究城市建成环境对于人类活动和社会经济的影响及其相互作用机制
-        - 提升资源使用效率为城市可持续发展提供科学依据
+        - Empowering spatiotemporal big data with large language models (LLM) to enhance deep cognition and intelligent processing of multimodal geographic information
+        - Exploring complex system modeling methods based on geographic intelligence agents (GeoAgent) to solve resource allocation and urban problems under multi-objective constraints
+        - Establishing a new generation of GeoAI technology system to achieve the leap from digitalization to intelligence and autonomy in urban management
 
-- title: 学术贡献
-  type: list
+- title: Academic Contributions
+  type: structured_list
   contents:
-    - title: <u>已发表论文28篇，第一/通讯作者13篇</u>
+    - title: <u>Published 28 papers, 13 as first/corresponding author</u>
       items: []
-    - title: <u>第一作者论文入选期刊高被引论文</u>
+    - title: <u>First-author papers selected as highly cited papers</u>
       items:
-        - 'A BiLSTM-CNN model for predicting users'' next locations based on geotagged social media 入选International Journal of Geographical Information Science近3年论文引用Top20'
-        - 'High‐resolution quantification of building stock using multi‐source remote sensing imagery and deep learning 入选Journal of Industrial Ecology的Editor''s Pick亮点论文'
-        - 'Big geodata revealed spatial patterns of built environment stocks across and within cities in China 发表在中国工程院院刊《Engineering》，被新华社报道，全网阅读量超过115万'
+        - 'A BiLSTM-CNN model for predicting users'' next locations based on geotagged social media selected as Top 20 most cited papers in the past 3 years in International Journal of Geographical Information Science'
+        - 'High‐resolution quantification of building stock using multi‐source remote sensing imagery and deep learning selected as Editor''s Pick highlight paper in Journal of Industrial Ecology'
+        - 'Big geodata revealed spatial patterns of built environment stocks across and within cities in China published in Engineering (Chinese Academy of Engineering journal), reported by Xinhua News Agency, with over 1.15 million online views'
 
-- title: 审稿经历
-  type: list
+- title: Editorial Board
+  type: structured_list
   contents:
-    - title: <u>期刊审稿人</u>
+    - title: <u>Editorial Board Member</u>
+      items:
+        - 'Youth Editorial Board Member of Resources, Environment and Sustainability (CAS Q1) <a href="https://www.sciencedirect.com/journal/resources-environment-and-sustainability" target="_blank" rel="noopener noreferrer">Journal Website</a>'
+        - 'Editor of Electronics Special Issue "Advanced Information Systems: Data-Driven and Geospatial Approaches" <a href="https://www.mdpi.com/journal/electronics/special_issues/5A52YZIG36" target="_blank" rel="noopener noreferrer">Special Issue Page</a>'
+
+- title: Reviewing Experience
+  type: structured_list
+  contents:
+    - title: <u>Journal Reviewer</u>
       items:
         - Humanities & Social Sciences Communications
         - Resources, Conservation and Recycling

@@ -719,14 +719,30 @@ footer.sticky-bottom {
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-align: center;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
+    font-weight: 600;
+    position: relative;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--global-theme-color), var(--global-theme-color-light, var(--global-theme-color)));
+      border-radius: 2px;
+    }
   }
 
   h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    color: var(--global-text-color);
 
     span {
       font-size: 1.5rem;
@@ -736,9 +752,11 @@ footer.sticky-bottom {
   h2.bibliography {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
-    margin-top: 2rem;
+    padding-top: 1.5rem;
+    margin-top: 3rem;
     text-align: right;
+    font-weight: 400;
+    font-size: 1.1rem;
   }
 
   ol.bibliography {
@@ -747,22 +765,72 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
+      padding: 1rem 1.5rem;
+      background-color: var(--global-card-bg-color, rgba(255, 255, 255, 0.8));
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      border: 0.5px solid var(--global-border-color, rgba(0, 0, 0, 0.1));
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        border-color: var(--global-theme-color);
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 4px;
+        background: linear-gradient(180deg, var(--global-theme-color), var(--global-theme-color-light, var(--global-theme-color)));
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      &:hover::before {
+        opacity: 1;
+      }
 
       .preview {
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        
+        &:hover {
+          transform: scale(1.05);
+        }
       }
 
       .abbr {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.8rem;
 
         abbr {
           display: inline-block;
-          background-color: var(--global-theme-color);
+          background: linear-gradient(135deg, var(--global-theme-color), var(--global-theme-color-light, var(--global-theme-color)));
           margin-bottom: 0.5rem;
           color: var(--global-card-bg-color) !important;
+          padding: 0.4rem 0.8rem;
+          border-radius: 20px;
+          font-weight: 500;
+          font-size: 0.85rem;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+          transition: all 0.3s ease;
+
+          &:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+          }
 
           a {
             color: white;
+            text-decoration: none;
 
             &:hover {
               text-decoration: none;
@@ -773,71 +841,170 @@ footer.sticky-bottom {
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
+          background-color: rgba(var(--global-theme-color-rgb, 0, 123, 255), 0.1);
+          padding: 0.3rem 0.6rem;
+          border-radius: 15px;
+          font-size: 0.8rem;
+          font-weight: 500;
         }
       }
 
       .title {
-        font-weight: bolder;
+        font-weight: 600;
+        font-size: 1.15rem;
+        line-height: 1.4;
+        margin-bottom: 0.5rem;
+        color: var(--global-text-color);
+        
+        .title-link {
+          color: var(--global-text-color);
+          text-decoration: none;
+          transition: all 0.2s ease;
+          position: relative;
+          display: inline-block;
+          
+          &:hover {
+            color: var(--global-theme-color);
+            text-decoration: none;
+            
+            &::after {
+              width: 100%;
+            }
+          }
+          
+          &::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--global-theme-color);
+            transition: width 0.3s ease;
+          }
+        }
+        
+        .title-text {
+          color: var(--global-text-color);
+        }
       }
 
       .author {
+        margin-bottom: 0.4rem;
+        font-size: 0.95rem;
+        color: var(--global-text-color-light, #666);
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
+          color: var(--global-theme-color);
+          transition: all 0.2s ease;
 
           &:hover {
             border-bottom-style: solid;
             text-decoration: none;
+            color: var(--global-theme-color-dark, var(--global-theme-color));
           }
         }
 
         > em {
-          border-bottom: 1px solid;
+          border-bottom: 1px solid var(--global-theme-color);
           font-style: normal;
+          color: var(--global-theme-color);
+          font-weight: 500;
         }
 
         > span.more-authors {
           color: var(--global-text-color-light);
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
+          transition: all 0.2s ease;
 
           &:hover {
-            color: var(--global-text-color);
-            border-bottom: 1px dashed var(--global-text-color);
+            color: var(--global-theme-color);
+            border-bottom: 1px dashed var(--global-theme-color);
+            background-color: rgba(var(--global-theme-color-rgb, 0, 123, 255), 0.05);
+            padding: 2px 4px;
+            border-radius: 3px;
           }
+        }
+      }
+
+      .periodical {
+        font-size: 0.9rem;
+        color: var(--global-text-color-light, #666);
+        margin-bottom: 0.5rem;
+        font-style: italic;
+        
+        em {
+          font-weight: 500;
+          color: var(--global-text-color);
         }
       }
 
       .links {
+        margin-top: 0.7rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        
         a.btn {
           color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
+          border: 1px solid var(--global-border-color, #ddd);
+          padding: 0.4rem 0.8rem;
+          margin: 0;
+          border-radius: 20px;
+          font-size: 0.85rem;
+          font-weight: 500;
+          background-color: var(--global-card-bg-color, rgba(255, 255, 255, 0.8));
+          transition: all 0.3s ease;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
           &:hover {
-            color: var(--global-theme-color);
+            color: var(--global-card-bg-color, white);
+            background-color: var(--global-theme-color);
             border-color: var(--global-theme-color);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          }
+          
+          &:first-child {
+            margin-left: 0;
           }
         }
+        
         a.award.btn {
           border-color: var(--global-highlight-color);
+          color: var(--global-highlight-color);
+          
+          &:hover {
+            background-color: var(--global-highlight-color);
+            color: var(--global-card-bg-color, white);
+          }
         }
       }
 
       .badges {
+        padding-top: 0.8rem;
         padding-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        
         span {
           display: inline-block;
           color: $black-color;
-          height: 100%;
-          padding-right: 0.5rem;
+          height: auto;
+          padding: 0.2rem 0.5rem;
           vertical-align: middle;
+          border-radius: 4px;
+          background-color: rgba(0, 0, 0, 0.05);
+          transition: all 0.2s ease;
 
           &:hover {
-            text-decoration: underline;
+            text-decoration: none;
+            background-color: rgba(0, 0, 0, 0.1);
+            transform: translateY(-1px);
           }
         }
       }
@@ -847,46 +1014,110 @@ footer.sticky-bottom {
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
+        transition: all 0.3s ease;
+        margin-top: 1rem;
+        padding: 0 1rem;
+        -moz-transition: 0.3s ease;
+        -ms-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
 
         p {
-          line-height: 1.4em;
-          margin: 10px;
+          line-height: 1.6em;
+          margin: 15px 0;
+          color: var(--global-text-color);
         }
 
         pre {
-          font-size: 1em;
+          font-size: 0.9em;
           line-height: 1.4em;
-          padding: 10px;
+          padding: 15px;
+          background-color: var(--global-code-bg, #f8f9fa);
+          border-radius: 8px;
+          border: 1px solid var(--global-border-color, #e9ecef);
+          overflow-x: auto;
         }
       }
 
       .hidden.open {
         max-height: 100em;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
+        transition-property: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        padding: 1rem;
+        background-color: var(--global-bg-color-light, rgba(0, 0, 0, 0.02));
+        border-radius: 8px;
+        border: 1px solid var(--global-border-color, rgba(0, 0, 0, 0.1));
       }
 
       div.abstract.hidden {
         border: dashed 1px var(--global-bg-color);
+        background-color: var(--global-bg-color-light, rgba(0, 0, 0, 0.02));
       }
 
       div.abstract.hidden.open {
-        border-color: var(--global-text-color);
+        border-color: var(--global-theme-color);
+        border-style: solid;
+        background-color: rgba(var(--global-theme-color-rgb, 0, 123, 255), 0.05);
+      }
+      
+      div.award.hidden {
+        border: dashed 1px var(--global-bg-color);
+        background-color: var(--global-bg-color-light, rgba(0, 0, 0, 0.02));
+      }
+      
+      div.award.hidden.open {
+        border-color: var(--global-highlight-color);
+        border-style: solid;
+        background-color: rgba(var(--global-highlight-color-rgb, 255, 193, 7), 0.05);
       }
     }
-    div.award.hidden {
-      border: dashed 1px var(--global-bg-color);
+  }
+  
+  // 响应式设计
+  @media (max-width: 768px) {
+    ol.bibliography li {
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      
+      .title {
+        font-size: 1.1rem;
+      }
+      
+      .author {
+        font-size: 0.9rem;
+      }
+      
+      .links {
+        gap: 0.3rem;
+        
+        a.btn {
+          padding: 0.3rem 0.6rem;
+          font-size: 0.8rem;
+        }
+      }
     }
-    div.award.hidden.open {
-      border-color: var(--global-highlight-color);
+  }
+  
+  @media (max-width: 576px) {
+    ol.bibliography li {
+      padding: 0.8rem;
+      
+      .title {
+        font-size: 1.05rem;
+      }
+      
+      .links {
+        flex-direction: column;
+        align-items: flex-start;
+        
+        a.btn {
+          width: 100%;
+          text-align: center;
+          margin-bottom: 0.3rem;
+        }
+      }
     }
   }
 }

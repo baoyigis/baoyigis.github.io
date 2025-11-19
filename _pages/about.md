@@ -2,15 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.nju.edu.cn'>南京大学</a> 助理教授、特聘研究员| 空间地球科学研究院
+subtitle: <a href='https://www.nju.edu.cn'>Nanjing University</a><br>Assistant Professor<br>Institute of Space Earth Science
 
 profile:
   align: right
   image: prof_bao.jpg
   image_circular: false # crops image to make it circular
   more_info: >
-    <p>邮箱: njubaoyi@gmail.com</p>
-    <p>地址: 江苏省苏州市太湖大道南京大学苏州校区</p>
+    <p>Email: njubaoyi AT gmail.com</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,10 +25,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-我是鲍毅，南京大学助理教授(特聘研究员)，主要从事城市时空大数据挖掘与可持续发展研究。我的研究兴趣包括高分辨率城市建成环境研究、建成环境与人类活动相互影响机制探索等。
+I am Yi Bao, an Assistant Professor at Nanjing University, focusing on urban spatiotemporal big data mining and sustainable development research. My research interests include high-resolution urban built environment research, exploration of interaction mechanisms between built environment and human activities, as well as geographic intelligence LLM and GeoAI applications.
 
-我已发表学术论文28篇，其中第一/通讯作者13篇，多篇论文发表在顶级期刊上，包括Engineering、Resources, Conservation and Recycling、Building and Environment等。我的研究成果曾获得新华社报道，全网阅读量超过115万。
+I received my Ph.D. in Cartography and Geographic Information Systems from Peking University in 2023.Before joining Nanjing University, I worked as a Boya Postdoctoral Fellow at the Institute of Remote Sensing and Geographic Information System, Peking University, where I was supported by the Postdoctoral Innovation Talent Support Program (BoXin Program).
 
-我目前主持多项科研项目，包括博士后创新人才支持计划、国家自然科学基金青年项目等，致力于通过大数据和人工智能技术解决城市可持续发展中的关键科学问题。
+I currently lead multiple research projects, including the National Natural Science Foundation of China Youth Program, dedicated to solving key scientific problems in urban sustainable development through big data and artificial intelligence technologies.
 
-欢迎与我交流合作！
+I welcome collaborations and discussions! I am currently recruiting master's students, doctoral students, postdoctoral researchers, and research assistants to join our team.

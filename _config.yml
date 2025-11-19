@@ -2,14 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: 鲍毅 # the website title (if blank, full name will be used instead)
-first_name: 毅
+title: Yi Bao # the website title (if blank, full name will be used instead)
+first_name: Yi
 middle_name:
-last_name: 鲍
+last_name: Bao
 contact_note: >
-  南京大学助理教授(特聘研究员)，研究方向为城市时空大数据挖掘与可持续发展
+  Assistant Professor at Nanjing University, focusing on urban spatiotemporal big data mining and sustainable development
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  南京大学助理教授(特聘研究员)，研究方向为城市时空大数据挖掘、高分辨率城市建成环境研究、建成环境与人类活动相互影响机制探索。
+  Assistant Professor at Nanjing University, focusing on urban spatiotemporal big data mining, high-resolution urban built environment research, and the interaction mechanisms between built environment and human activities.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -213,7 +213,7 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-tabs
-  - jekyll-terser
+  # - jekyll-terser
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
@@ -331,7 +331,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.

@@ -1,0 +1,13 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for content in entry.contents %}
+    <li class="list-group-item">
+      {% if content.items and content.items.size > 0 %}
+        <ul class="sublist mt-2">
+          {% for item in content.items %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
