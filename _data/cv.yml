@@ -1,97 +1,161 @@
-- title: General Information
+- title: 基本信息
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: 姓名
+      value: 鲍毅
+    - name: 出生年月
+      value: 1995年7月
+    - name: 邮箱
+      value: njubaoyi@gmail.com
+    - name: 现任职位
+      value: 南京大学助理教授(特聘研究员)
+    - name: 研究方向
+      value: 城市时空大数据挖掘与可持续发展
 
-- title: Education
+- title: 教育经历
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: 博士
+      institution: 北京大学，地图学与地理信息系统
+      year: 2018.09 - 2023.07
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - 导师：黄舟
+        - 获得北京大学优秀博士论文
+        - 获得北京大学优秀毕业生
+    - title: 学士
+      institution: 中国地质大学(武汉)，信息工程
+      year: 2014.09 - 2018.07
       description:
-        - Description 1.
-        - Description 2.
+        - 获得中国地质大学(武汉)优秀毕业生
 
-- title: Experience
+- title: 研究经历
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: 助理教授(特聘研究员)
+      institution: 南京大学，前沿科学学院(空间地球科学研究院)
+      year: 2025.12 - 至今
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - 负责城市时空大数据与可持续发展相关研究
+    - title: 博雅博士后
+      institution: 北京大学，遥感所
+      year: 2023.12 - 2025.11
       description:
-        - Description 1.
-        - Description 2.
+        - 合作导师：李培军
+        - 获得博士后创新人才支持计划(博新计划)
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: 科研项目
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: 博士后创新人才支持计划
+      institution: 全国博士后管委会
+      year: 2024.06 - 2025.11
+      description:
+        - 基于深度学习的高分辨率建成环境物质存量时空演化及人-地关系动态模拟
+        - 主持
+    - title: 国家自然科学基金青年项目
+      institution: 国家自然科学基金委员会
+      year: 2025.01 - 2027.12
+      description:
+        - 顾及大范围与高分辨率的全国城市建成环境物质存量估算方法及应用
+        - 主持
+    - title: 国家重点研发计划
+      institution: 中华人民共和国科学技术部
+      year: 2023.12 - 2025.11
+      description:
+        - 重点项目安全综合遥感监测关键技术及应用示范
+        - 子课题负责人
+    - title: 武汉大学测绘遥感信息工程国家重点实验室开放基金
+      institution: 武汉大学
+      year: 2025.01 - 2026.12
+      description:
+        - 面向灾害监测预警的多模态知识图谱构建与协同分析
+        - 主持
+    - title: 中国博士后科学基金第77批面上资助
+      institution: 中国博士后科学基金会
+      year: 2023.12 - 2025.11
+      description:
+        - MaaS 融合多源地理大数据的长时序城市物质存量精细化估算与格局演变研究
+        - 主持
 
-- title: Honors and Awards
+- title: 荣誉与奖励
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - 博士后创新人才支持计划(博新计划)
+    - year: 2023
       items:
-        - Max Planck Medal
+        - 北京大学优秀博士论文
+        - 北京大学优秀毕业生
+    - year: 2022
+      items:
+        - 北京大学优秀科研奖
+        - 北京大学遥感所优秀学术论文奖
+    - year: 2020
+      items:
+        - 北京大学优秀科研奖
+        - 北京大学遥感所优秀学术论文奖
+        - 北京大学廖凯原奖学金
+    - year: 2018
+      items:
+        - 中国地质大学(武汉)优秀毕业生
+    - year: 2016
+      items:
+        - 国家奖学金
+    - year: 2015
+      items:
+        - 国家奖学金
+        - 中国地质大学(武汉)第九届李四光计划
 
-- title: Academic Interests
+- title: 研究方向
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: 城市时空大数据挖掘与可持续发展
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - 通过挖掘城市时空大数据，揭示城市发展的规律和趋势
+        - 为城市规划和决策提供科学依据
+        - 实现城市的可持续发展和智能化建设
+    - title: 高分辨率城市建成环境研究
       items:
-        - Description 1.
-        - Description 2.
+        - 通过结合机器学习与地理大数据计算高分辨率城市建成环境物质存量
+        - 分布模式，评估城市矿产潜力
+        - 城市演化方向以及城市可持续发展模式
+    - title: 建成环境与人类活动、社会经济属性的相互影响机制探索
+      items:
+        - 分析建成环境与人类活动、社会经济属性的关联
+        - 探究城市建成环境对于人类活动和社会经济的影响及其相互作用机制
+        - 提升资源使用效率为城市可持续发展提供科学依据
 
-- title: Other Interests
+- title: 学术贡献
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: <u>已发表论文28篇，第一/通讯作者13篇</u>
+      items: []
+    - title: <u>第一作者论文入选期刊高被引论文</u>
+      items:
+        - 'A BiLSTM-CNN model for predicting users'' next locations based on geotagged social media 入选International Journal of Geographical Information Science近3年论文引用Top20'
+        - 'High‐resolution quantification of building stock using multi‐source remote sensing imagery and deep learning 入选Journal of Industrial Ecology的Editor''s Pick亮点论文'
+        - 'Big geodata revealed spatial patterns of built environment stocks across and within cities in China 发表在中国工程院院刊《Engineering》，被新华社报道，全网阅读量超过115万'
+
+- title: 审稿经历
+  type: list
+  contents:
+    - title: <u>期刊审稿人</u>
+      items:
+        - Humanities & Social Sciences Communications
+        - Resources, Conservation and Recycling
+        - Transportation
+        - Cities
+        - Journal of Big Data
+        - Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+        - Journal of Industrial Ecology
+        - Geo-spatial Information Science
+        - IEEE Access
+        - International Journal of Applied Earth Observation and Geoinformation
+        - Transactions on Geoscience and Remote Sensing
+        - Urban Informatics
+        - Sustainable Cities and Society
+        - Landscape and Urban Planning
+        - Applied Geography
+        - Earth's Future
+        - Journal of Asian Architecture and Building Engineering
