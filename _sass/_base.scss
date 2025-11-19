@@ -415,23 +415,23 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem;
 
     a {
       img {
-        width: 3.2rem;
-        height: 3.2rem;
+        width: 2rem;
+        height: 2rem;
         margin-bottom: 1rem;
       }
 
       svg {
-        width: 3.5rem;
-        height: 4rem;
+        width: 2.2rem;
+        height: 2.5rem;
         margin-bottom: 0.5rem;
 
         image {
-          width: 3.5rem;
-          height: 3.5rem;
+          width: 2.2rem;
+          height: 2.2rem;
         }
       }
 
@@ -765,7 +765,7 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 2rem;
+      margin-bottom: 1.2rem;
       padding: 1rem 1.5rem;
       background-color: var(--global-card-bg-color, rgba(255, 255, 255, 0.8));
       border-radius: 12px;
@@ -774,6 +774,17 @@ footer.sticky-bottom {
       transition: all 0.3s ease;
       position: relative;
       overflow: hidden;
+      
+      .row {
+        display: flex;
+        align-items: stretch;
+      }
+      
+      .col-sm-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
       &:hover {
         transform: translateY(-2px);
@@ -802,9 +813,19 @@ footer.sticky-bottom {
         overflow: hidden;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
         
         &:hover {
           transform: scale(1.05);
+        }
+        
+        img {
+          max-width: 100%;
+          height: auto;
+          object-fit: contain;
         }
       }
 
@@ -942,7 +963,7 @@ footer.sticky-bottom {
       }
 
       .links {
-        margin-top: 0.7rem;
+        margin-top: 0.5rem;
         display: flex;
         flex-wrap: wrap;
         gap: 0.5rem;
@@ -984,8 +1005,8 @@ footer.sticky-bottom {
       }
 
       .badges {
-        padding-top: 0.8rem;
-        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.3rem;
         display: flex;
         align-items: center;
         gap: 0.5rem;
