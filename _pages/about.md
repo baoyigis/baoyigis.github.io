@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.nju.edu.cn'>南京大学</a> 助理教授、特聘研究员| 前沿科学学院(空间地球科学研究院)
+subtitle: <a href='https://www.nju.edu.cn'>南京大学</a> 助理教授、特聘研究员| 空间地球科学研究院
 
 profile:
   align: right
