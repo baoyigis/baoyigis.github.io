@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2025-12-10'
+  last_updated: '2026-01-12'
 papers:
   EAMVOhUAAAAJ:0EnyYjriUFMC:
-    citations: 43
+    citations: 46
     title: 'Examining active travel behavior through explainable machine learning: Insights from Beijing, China'
     year: '2024'
   EAMVOhUAAAAJ:2osOgNQ5qMEC:
-    citations: 118
+    citations: 121
     title: High-resolution mapping of the urban built environment stocks in Beijing
     year: '2020'
   EAMVOhUAAAAJ:3fE2CSJIrl8C:
@@ -26,15 +26,15 @@ papers:
     title: "A Scene\u2013Object\u2013Economy Framework for Identifying and Validating Urban\u2013Rural Fringe Using Multisource Geospatial Big Data"
     year: '2024'
   EAMVOhUAAAAJ:9yKSN-GCB0IC:
-    citations: 61
+    citations: 60
     title: Global urban subway development, construction material stocks, and embodied carbon emissions
     year: '2021'
   EAMVOhUAAAAJ:IjCSPb-OGe4C:
-    citations: 78
+    citations: 81
     title: Identifying spatiotemporal characteristics and driving factors for road traffic CO2 emissions
     year: '2022'
   EAMVOhUAAAAJ:KlAtU1dfN6UC:
-    citations: 11
+    citations: 10
     title: 'Spatially-optimized greenspace for more effective urban heat mitigation: Insights from regional cooling heterogeneity via explainable machine learning'
     year: '2025'
   EAMVOhUAAAAJ:LkGwnXOMwfcC:
@@ -50,7 +50,7 @@ papers:
     title: 'Matching End-of-Life Household Vehicle Generation and Recycling Capacity in a City-Scale Setting: A Spatio-Temporal Analysis for 2022-2050'
     year: Unknown Year
   EAMVOhUAAAAJ:Se3iqnhoufwC:
-    citations: 10
+    citations: 11
     title: High-resolution mapping of material stocks in the built environment across 50 Chinese cities
     year: '2023'
   EAMVOhUAAAAJ:Tyk-4Ss8FVUC:
@@ -58,7 +58,7 @@ papers:
     title: 'Doufu: a double fusion joint learning method for driving trajectory representation'
     year: '2022'
   EAMVOhUAAAAJ:ULOm3_A8WrAC:
-    citations: 4
+    citations: 5
     title: Quantifying the impact of building material stock and green infrastructure on urban heat island intensity
     year: '2025'
   EAMVOhUAAAAJ:UeHWp8X0CEIC:
@@ -66,11 +66,11 @@ papers:
     title: A novel carbon cycle turbulence index identifies environmental and ecological perturbations
     year: '2021'
   EAMVOhUAAAAJ:W7OEmFMy1HYC:
-    citations: 19
+    citations: 20
     title: Evaluating the human use efficiency of urban built environment and their coordinated development in a spatially refined manner
     year: '2023'
   EAMVOhUAAAAJ:WF5omc3nYNoC:
-    citations: 13
+    citations: 14
     title: Optimizing segmented trajectory data storage with HBase for improved spatio-temporal query efficiency
     year: '2023'
   EAMVOhUAAAAJ:YOwf2qJgpHMC:
@@ -78,15 +78,15 @@ papers:
     title: 'Assessing carbon sink potentials in the built environment: A study of 40 Chinese cities using a bottom-up high-resolution approach'
     year: '2025'
   EAMVOhUAAAAJ:YsMSGLbcyi4C:
-    citations: 9
+    citations: 13
     title: 'Gwrboost: a geographically weighted gradient boosting method for explainable quantification of spatially-varying relationships'
     year: '2022'
   EAMVOhUAAAAJ:Zph67rFs4hoC:
-    citations: 4
+    citations: 3
     title: Traffic prediction and road space optimization for the integration of dockless bike-sharing and subway
     year: '2025'
   EAMVOhUAAAAJ:_FxGoFyzp5QC:
-    citations: 32
+    citations: 35
     title: Big geodata reveals spatial patterns of built environment stocks across and within cities in China
     year: '2024'
   EAMVOhUAAAAJ:_kc_bZDykSQC:
@@ -114,7 +114,7 @@ papers:
     title: 'Assessing and mitigating the carbon emissions from illegal urban buildings: A spatial lifecycle analysis'
     year: '2025'
   EAMVOhUAAAAJ:qjMakFHDy7sC:
-    citations: 37
+    citations: 36
     title: 'Site selection for hybrid offshore wind and wave power plants using a four-stage framework: A case study in Hainan, China'
     year: '2022'
   EAMVOhUAAAAJ:roLk4NBRz8UC:
@@ -122,7 +122,7 @@ papers:
     title: 'Spatial calculation of urban built environment stock: Progress and prospects'
     year: '2022'
   EAMVOhUAAAAJ:u-x6o8ySG0sC:
-    citations: 73
+    citations: 74
     title: "A BiLSTM-CNN model for predicting users\u2019 next locations based on geotagged social media"
     year: '2021'
   EAMVOhUAAAAJ:ufrVoPGSRksC:
@@ -130,6 +130,6 @@ papers:
     title: "\u57CE\u5E02\u5EFA\u6210\u73AF\u5883\u5B58\u91CF\u7684\u7A7A\u95F4\u8BA1\u7B97: \u8FDB\u5C55\u53CA\u5C55\u671B"
     year: '2022'
   EAMVOhUAAAAJ:zYLM7Y9cAGgC:
-    citations: 52
+    citations: 53
     title: 'ConvGCN-RF: A hybrid learning model for commuting flow prediction considering geographical semantics and neighborhood effects'
     year: '2023'
