@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-01-12'
+  last_updated: '2026-01-23'
 papers:
   EAMVOhUAAAAJ:0EnyYjriUFMC:
-    citations: 46
+    citations: 47
     title: 'Examining active travel behavior through explainable machine learning: Insights from Beijing, China'
     year: '2024'
   EAMVOhUAAAAJ:2osOgNQ5qMEC:
-    citations: 121
+    citations: 122
     title: High-resolution mapping of the urban built environment stocks in Beijing
     year: '2020'
   EAMVOhUAAAAJ:3fE2CSJIrl8C:
@@ -22,7 +22,7 @@ papers:
     title: Multi-level Priors-Guided Diffusion-based Remote Sensing Image Super-Resolution
     year: '2025'
   EAMVOhUAAAAJ:8k81kl-MbHgC:
-    citations: 2
+    citations: 3
     title: "A Scene\u2013Object\u2013Economy Framework for Identifying and Validating Urban\u2013Rural Fringe Using Multisource Geospatial Big Data"
     year: '2024'
   EAMVOhUAAAAJ:9yKSN-GCB0IC:
@@ -34,7 +34,7 @@ papers:
     title: Identifying spatiotemporal characteristics and driving factors for road traffic CO2 emissions
     year: '2022'
   EAMVOhUAAAAJ:KlAtU1dfN6UC:
-    citations: 10
+    citations: 11
     title: 'Spatially-optimized greenspace for more effective urban heat mitigation: Insights from regional cooling heterogeneity via explainable machine learning'
     year: '2025'
   EAMVOhUAAAAJ:LkGwnXOMwfcC:
@@ -58,7 +58,7 @@ papers:
     title: 'Doufu: a double fusion joint learning method for driving trajectory representation'
     year: '2022'
   EAMVOhUAAAAJ:ULOm3_A8WrAC:
-    citations: 5
+    citations: 4
     title: Quantifying the impact of building material stock and green infrastructure on urban heat island intensity
     year: '2025'
   EAMVOhUAAAAJ:UeHWp8X0CEIC:
@@ -82,7 +82,7 @@ papers:
     title: 'Gwrboost: a geographically weighted gradient boosting method for explainable quantification of spatially-varying relationships'
     year: '2022'
   EAMVOhUAAAAJ:Zph67rFs4hoC:
-    citations: 3
+    citations: 4
     title: Traffic prediction and road space optimization for the integration of dockless bike-sharing and subway
     year: '2025'
   EAMVOhUAAAAJ:_FxGoFyzp5QC:
@@ -114,7 +114,7 @@ papers:
     title: 'Assessing and mitigating the carbon emissions from illegal urban buildings: A spatial lifecycle analysis'
     year: '2025'
   EAMVOhUAAAAJ:qjMakFHDy7sC:
-    citations: 36
+    citations: 37
     title: 'Site selection for hybrid offshore wind and wave power plants using a four-stage framework: A case study in Hainan, China'
     year: '2022'
   EAMVOhUAAAAJ:roLk4NBRz8UC:
@@ -130,6 +130,6 @@ papers:
     title: "\u57CE\u5E02\u5EFA\u6210\u73AF\u5883\u5B58\u91CF\u7684\u7A7A\u95F4\u8BA1\u7B97: \u8FDB\u5C55\u53CA\u5C55\u671B"
     year: '2022'
   EAMVOhUAAAAJ:zYLM7Y9cAGgC:
-    citations: 53
+    citations: 54
     title: 'ConvGCN-RF: A hybrid learning model for commuting flow prediction considering geographical semantics and neighborhood effects'
     year: '2023'
