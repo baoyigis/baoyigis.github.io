@@ -13,5 +13,5 @@ profiles:
     image: prof_bao.jpg
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Email: njubaoyi@gmail.com</p>
+      <p>Email: baoyi@nju.edu.cn</p>
 ---
