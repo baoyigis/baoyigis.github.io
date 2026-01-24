@@ -9,7 +9,7 @@ profile:
   image: prof_bao.jpg
   image_circular: false # crops image to make it circular
   more_info: >
-    <p>Email: njubaoyi AT gmail.com</p>
+    <p>Email: baoyi AT nju.edu.cn</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
