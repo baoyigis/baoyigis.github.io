@@ -17,7 +17,7 @@
       institution: Peking University, Cartography and Geographic Information Systems
       year: 2018.09 - 2023.07
       description:
-        - Supervisor: Zhou Huang
+        - Supervisor -- Zhou Huang
         - Received Outstanding Doctoral Dissertation Award from Peking University
         - Received Outstanding Graduate Award from Peking University
     - title: B.S.
@@ -33,12 +33,12 @@
       institution: Nanjing University, School of Advanced Sciences (Institute of Space Earth Science)
       year: 2025.12 - Present
       description:
-        - Responsible for research on urban spatiotemporal big data and sustainable development
+        - Research on urban spatiotemporal big data and sustainable development
     - title: Boya Postdoctoral Fellow
       institution: Peking University, Institute of Remote Sensing
       year: 2023.12 - 2025.11
       description:
-        - Co-supervisor: Peijun Li
+        - Co-supervisor -- Peijun Li
         - Received Postdoctoral Innovation Talent Support Program (BoXin Program)
 
 - title: Research Projects
@@ -165,3 +165,5 @@
         - Applied Geography
         - Earth's Future
         - Journal of Asian Architecture and Building Engineering
+        - Water Resources Research
+        - Transportation Research Part D
