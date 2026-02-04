@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-01-23'
+  last_updated: '2026-02-04'
 papers:
   EAMVOhUAAAAJ:0EnyYjriUFMC:
-    citations: 47
+    citations: 49
     title: 'Examining active travel behavior through explainable machine learning: Insights from Beijing, China'
     year: '2024'
   EAMVOhUAAAAJ:2osOgNQ5qMEC:
@@ -22,19 +22,19 @@ papers:
     title: Multi-level Priors-Guided Diffusion-based Remote Sensing Image Super-Resolution
     year: '2025'
   EAMVOhUAAAAJ:8k81kl-MbHgC:
-    citations: 3
+    citations: 5
     title: "A Scene\u2013Object\u2013Economy Framework for Identifying and Validating Urban\u2013Rural Fringe Using Multisource Geospatial Big Data"
     year: '2024'
   EAMVOhUAAAAJ:9yKSN-GCB0IC:
-    citations: 60
+    citations: 62
     title: Global urban subway development, construction material stocks, and embodied carbon emissions
     year: '2021'
   EAMVOhUAAAAJ:IjCSPb-OGe4C:
-    citations: 81
+    citations: 83
     title: Identifying spatiotemporal characteristics and driving factors for road traffic CO2 emissions
     year: '2022'
   EAMVOhUAAAAJ:KlAtU1dfN6UC:
-    citations: 11
+    citations: 12
     title: 'Spatially-optimized greenspace for more effective urban heat mitigation: Insights from regional cooling heterogeneity via explainable machine learning'
     year: '2025'
   EAMVOhUAAAAJ:LkGwnXOMwfcC:
@@ -54,7 +54,7 @@ papers:
     title: High-resolution mapping of material stocks in the built environment across 50 Chinese cities
     year: '2023'
   EAMVOhUAAAAJ:Tyk-4Ss8FVUC:
-    citations: 11
+    citations: 12
     title: 'Doufu: a double fusion joint learning method for driving trajectory representation'
     year: '2022'
   EAMVOhUAAAAJ:ULOm3_A8WrAC:
@@ -66,19 +66,23 @@ papers:
     title: A novel carbon cycle turbulence index identifies environmental and ecological perturbations
     year: '2021'
   EAMVOhUAAAAJ:W7OEmFMy1HYC:
-    citations: 20
+    citations: 21
     title: Evaluating the human use efficiency of urban built environment and their coordinated development in a spatially refined manner
     year: '2023'
   EAMVOhUAAAAJ:WF5omc3nYNoC:
     citations: 14
     title: Optimizing segmented trajectory data storage with HBase for improved spatio-temporal query efficiency
     year: '2023'
+  EAMVOhUAAAAJ:Wp0gIr-vW9MC:
+    citations: 0
+    title: Mining travel carbon emission patterns and evaluating equity in public transportation based on smart card data
+    year: '2026'
   EAMVOhUAAAAJ:YOwf2qJgpHMC:
     citations: 2
     title: 'Assessing carbon sink potentials in the built environment: A study of 40 Chinese cities using a bottom-up high-resolution approach'
     year: '2025'
   EAMVOhUAAAAJ:YsMSGLbcyi4C:
-    citations: 13
+    citations: 14
     title: 'Gwrboost: a geographically weighted gradient boosting method for explainable quantification of spatially-varying relationships'
     year: '2022'
   EAMVOhUAAAAJ:Zph67rFs4hoC:
@@ -98,7 +102,7 @@ papers:
     title: 'Unveiling the overestimated carbon reductions of dockless bike-sharing: A data-driven analysis'
     year: '2026'
   EAMVOhUAAAAJ:d1gkVwhDpl0C:
-    citations: 47
+    citations: 48
     title: "Perceiving Beijing\u2019s \u201Ccity image\u201D across different groups based on geotagged social media data"
     year: '2020'
   EAMVOhUAAAAJ:eQOLeE2rZwMC:
@@ -110,7 +114,7 @@ papers:
     title: 'Spatial Blockchain: Enhancing Spatial Queries and Applications through Integrating Blockchain and Spatial Database Technologies'
     year: '2023'
   EAMVOhUAAAAJ:kNdYIx-mwKoC:
-    citations: 4
+    citations: 5
     title: 'Assessing and mitigating the carbon emissions from illegal urban buildings: A spatial lifecycle analysis'
     year: '2025'
   EAMVOhUAAAAJ:qjMakFHDy7sC:
