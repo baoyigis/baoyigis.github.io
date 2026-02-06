@@ -24,7 +24,7 @@ icon: 🌍 # the emoji used as the favicon (alternatively, provide image name in
 languages: ["en", "zh"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "assets"]
-parallel_localization: true
+parallel_localization: false
 
 url: https://baoyigis.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root

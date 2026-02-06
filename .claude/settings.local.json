@@ -11,7 +11,8 @@
       "Bash(lsof:*)",
       "Bash(gem pristine:*)",
       "Bash(gem:*)",
-      "Bash(bundle:*)"
+      "Bash(bundle:*)",
+      "Bash(docker compose:*)"
     ]
   }
 }

@@ -13,7 +13,7 @@ group :jekyll_plugins do
     gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
-    gem 'jekyll-polyglot'
+    # gem 'jekyll-polyglot'  # 暂时禁用，等待依赖修复
     gem 'jekyll-regex-replace'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
