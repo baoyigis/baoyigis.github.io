@@ -1,6 +1,6 @@
 ---
-title: "Lab 0: 构建现代空间数据科学环境"
-permalink: /blog/2025/lab0/
+title: "Lesson 0: 构建现代空间数据科学环境"
+permalink: /blog/2025/lesson0/
 date: 2025-02-06 10:00:00 +0800
 categories: [空间分析, 环境配置]
 tags: [VSCode, uv, Python, GeoPandas, 空间分析]
