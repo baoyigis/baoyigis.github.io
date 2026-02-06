@@ -14,7 +14,8 @@
       "Bash(bundle:*)",
       "Bash(docker compose:*)",
       "Bash(ls:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(find:*)"
     ]
   }
 }

@@ -1,0 +1,31 @@
+{%- comment -%}
+  Custom bibliography template with year count
+  Groups papers by year and shows count for each year
+{%- endcomment -%}
+
+{%- assign grouped_papers = site.data.papers.biblio | group_by_exp: "item", "item[1].year" | sort: "name" | reverse -%}
+
+<div class="publications">
+
+  {%- for group in grouped_papers -%}
+    {%- assign year = group.name -%}
+    {%- assign papers = group.items -%}
+    {%- assign paper_count = papers | size -%}
+
+    <h2 class="year">
+      {{ year }}
+      <span class="badge badge-secondary ml-2">{{ paper_count }}</span>
+    </h2>
+
+    {%- for entry_data in papers -%}
+      {%- assign entry = entry_data[1] -%}
+      <div class="row">
+        <div id="{{ entry.key }}" class="col-sm-12">
+          {% include bib.liquid entry=entry %}
+        </div>
+      </div>
+    {%- endfor -%}
+
+  {%- endfor -%}
+
+</div>

@@ -1,46 +1,55 @@
 /* Modern Colorful Theme - 现代配色方案，护眼且高对比度 */
 
 /* ===== 表格样式 ===== */
-table {
+
+/* 博客文章中的大表格样式 */
+.post-content table,
+table:not(.table):not(.table-sm) {
   border-collapse: separate;
   border-spacing: 0;
   width: 100%;
   max-width: 100%;
   margin: 2.5em 0;
-  font-size: 1.1em;
+  font-size: 1.05em;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-table th,
-table td {
-  padding: 18px 28px;
+.post-content table th,
+.post-content table td,
+table:not(.table):not(.table-sm) th,
+table:not(.table):not(.table-sm) td {
+  padding: 14px 20px;
   text-align: left;
   border-bottom: 1px solid #e1e4e8;
-  line-height: 2;
+  line-height: 1.3;
 }
 
-table th {
+.post-content table th,
+table:not(.table):not(.table-sm) th {
   background: linear-gradient(to bottom, #f9fafb 0%, #f3f4f6 100%);
   font-weight: 700;
-  font-size: 0.8em;
+  font-size: 0.95em;
   text-transform: uppercase;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.8px;
   color: #374151;
   border-bottom: 2px solid #d1d5db;
-  padding: 20px 28px;
+  padding: 16px 20px;
 }
 
-table tr:last-child td {
+.post-content table tr:last-child td,
+table:not(.table):not(.table-sm) tr:last-child td {
   border-bottom: none;
 }
 
-table tr:nth-child(even) {
+.post-content table tr:nth-child(even),
+table:not(.table):not(.table-sm) tr:nth-child(even) {
   background-color: #f9fafb;
 }
 
-table tr:hover {
+.post-content table tr:hover,
+table:not(.table):not(.table-sm) tr:hover {
   background-color: #f3f4f6;
   transition: background-color 0.15s ease;
 }
@@ -51,6 +60,26 @@ table code {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
+/* 复制按钮样式修复 */
+.highlight pre button,
+.highlight pre .copy-button,
+.highlight pre .copy-btn {
+  position: absolute !important;
+  top: 8px !important;
+  right: 8px !important;
+  z-index: 100 !important;
+  display: block !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+.highlight pre button:hover,
+.highlight pre .copy-button:hover,
+.highlight pre .copy-btn:hover {
+  opacity: 0.8 !important;
+}
+
 /* ===== 代码高亮样式 ===== */
 .highlight pre,
 .highlight code {
@@ -59,35 +88,36 @@ table code {
 }
 
 .highlight pre {
-  background-color: #f6f8fa;
-  border: 1px solid #d0d7de;
+  background-color: #383838;
+  border: 1px solid #454545;
   border-radius: 6px;
   padding: 16px;
   line-height: 1.6;
   font-size: 14px;
+  position: relative;
 }
 
 .highlight .hll {
-  background-color: #fff8c5;
+  background-color: #515151;
 }
 
-/* 注释 - 柔和灰色 */
+/* 注释 - 绿色 */
 .highlight .c,
 .highlight .cm,
 .highlight .cp,
 .highlight .c1,
 .highlight .cs {
-  color: #6e7781;
+  color: #6a9955;
   font-style: italic;
 }
 
-/* 错误 - 柔和红色 */
+/* 错误 - 红色 */
 .highlight .err {
-  color: #cf222e;
-  background-color: #ffebe9;
+  color: #f44747;
+  background-color: #3a1d1d;
 }
 
-/* 关键字 - 深紫色 */
+/* 关键字 - 柔和紫色 */
 .highlight .k,
 .highlight .kc,
 .highlight .kd,
@@ -95,57 +125,57 @@ table code {
 .highlight .kp,
 .highlight .kr,
 .highlight .kt {
-  color: #cf222e;
-  font-weight: 600;
+  color: #c586c0;
+  font-weight: bold;
 }
 
-/* 运算符 - 深色 */
+/* 运算符 - 白色 */
 .highlight .o {
-  color: #24292f;
+  color: #d4d4d4;
 }
 
-/* 标点符号 - 深色 */
+/* 标点符号 - 白色 */
 .highlight .p {
-  color: #24292f;
+  color: #d4d4d4;
 }
 
-/* 函数名 - 蓝紫色 */
+/* 函数名 - 蓝色 */
 .highlight .nf,
 .highlight .nc {
-  color: #8250df;
-  font-weight: 600;
+  color: #dcdcaa;
+  font-weight: bold;
 }
 
-/* 类名 - 蓝色 */
+/* 类名 - 黄色 */
 .highlight .nn {
-  color: #0550ae;
-  font-weight: 600;
+  color: #4ec9b0;
+  font-weight: bold;
 }
 
-/* 变量名 - 深色 */
+/* 变量名 - 青色 */
 .highlight .n {
-  color: #24292f;
+  color: #9cdcfe;
 }
 .highlight .nv {
-  color: #116329;
+  color: #4fc1ff;
 }
 
-/* 内置函数 - 深蓝色 */
+/* 内置函数 - 蓝绿色 */
 .highlight .nb {
-  color: #0550ae;
+  color: #4ec9b0;
 }
 
-/* 数字 - 深绿色 */
+/* 数字 - 橙色 */
 .highlight .m,
 .highlight .mf,
 .highlight .mh,
 .highlight .mi,
 .highlight .mo,
 .highlight .il {
-  color: #0550ae;
+  color: #b5cea8;
 }
 
-/* 字符串 - 深绿色 */
+/* 字符串 - 橙色 */
 .highlight .s,
 .highlight .sb,
 .highlight .sc,
@@ -156,40 +186,53 @@ table code {
 .highlight .si,
 .highlight .sx,
 .highlight .s1 {
-  color: #0a3069;
+  color: #ce9178;
 }
 
 /* 正则表达式字符串 */
 .highlight .sr {
-  color: #0550ae;
+  color: #d16969;
 }
 
 /* 字符串符号 */
 .highlight .ss {
-  color: #cf222e;
+  color: #c586c0;
 }
 
-/* 装饰器 - 蓝色 */
+/* 装饰器 - 紫色 */
 .highlight .nd {
-  color: #8250df;
+  color: #c586c0;
 }
 
 /* 属性 - 蓝绿色 */
 .highlight .na {
-  color: #116329;
+  color: #9cdcfe;
 }
 
-/* 标签 - 深紫色 */
+/* 标签 - 蓝色 */
 .highlight .nt {
-  color: #cf222e;
+  color: #dcdcaa;
+}
+
+/* 代码块中的链接 */
+.highlight pre a,
+.highlight code a {
+  color: #9cdcfe !important;
+  text-decoration: none;
+}
+
+.highlight pre a:hover,
+.highlight code a:hover {
+  color: #4ec9b0 !important;
+  text-decoration: underline;
 }
 
 /* 通用样式 */
 .highlight .g,
 .highlight .l,
 .highlight .x {
-  color: #24292f;
+  color: #d4d4d4;
 }
 .highlight .w {
-  color: #6e7781;
+  color: #6a9955;
 }

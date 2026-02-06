@@ -13,6 +13,10 @@ nav_order: 3
 
 {% include bib_search.liquid %}
 
+<style>
+  /* No custom width restrictions - use theme defaults */
+</style>
+
 <div class="publications">
 
 {% bibliography %}
