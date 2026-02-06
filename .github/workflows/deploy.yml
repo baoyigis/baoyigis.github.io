@@ -76,6 +76,8 @@ jobs:
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
+      - name: Disable lockfile freeze 🔓
+        run: bundle config set frozen false
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
