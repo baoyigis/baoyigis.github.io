@@ -131,9 +131,9 @@
       items: []
     - title: <u>第一作者论文入选高被引论文</u>
       items:
-        - '基于地理标记社交媒体的BiLSTM-CNN用户下一位置预测模型入选International Journal of Geographical Information Science近3年Top 20高被引论文'
-        - '利用多源遥感影像和深度学习的高分辨率建筑存量量化入选Journal of Industrial Ecology编辑推荐亮点论文'
-        - '中国城市间和城市内部建成环境存量的空间格局大数据研究发表于Engineering（中国工程院期刊），新华社报道，在线浏览量超过115万'
+        - "基于地理标记社交媒体的BiLSTM-CNN用户下一位置预测模型入选International Journal of Geographical Information Science近3年Top 20高被引论文"
+        - "利用多源遥感影像和深度学习的高分辨率建筑存量量化入选Journal of Industrial Ecology编辑推荐亮点论文"
+        - "中国城市间和城市内部建成环境存量的空间格局大数据研究发表于Engineering（中国工程院期刊），新华社报道，在线浏览量超过115万"
 
 - title: 编委会任职
   type: structured_list

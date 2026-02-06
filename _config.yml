@@ -252,7 +252,7 @@ terser:
   compress:
     drop_console: true
     drop_debugger: true
-    pure_funcs: ['console.log']
+    pure_funcs: ["console.log"]
   mangle: true
   output:
     comments: false

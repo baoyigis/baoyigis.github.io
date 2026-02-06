@@ -3,10 +3,9 @@
   Groups papers by year and shows count for each year
 {%- endcomment -%}
 
-{%- assign grouped_papers = site.data.papers.biblio | group_by_exp: "item", "item[1].year" | sort: "name" | reverse -%}
+{%- assign grouped_papers = site.data.papers.biblio | group_by_exp: 'item', 'item[1].year' | sort: 'name' | reverse -%}
 
 <div class="publications">
-
   {%- for group in grouped_papers -%}
     {%- assign year = group.name -%}
     {%- assign papers = group.items -%}
@@ -25,7 +24,5 @@
         </div>
       </div>
     {%- endfor -%}
-
   {%- endfor -%}
-
 </div>

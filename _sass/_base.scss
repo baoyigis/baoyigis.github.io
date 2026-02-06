@@ -725,9 +725,9 @@ footer.sticky-bottom {
     margin-bottom: 1.5em;
     font-weight: 600;
     position: relative;
-    
+
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       bottom: -10px;
       left: 50%;
@@ -774,12 +774,12 @@ footer.sticky-bottom {
       transition: all 0.3s ease;
       position: relative;
       overflow: hidden;
-      
+
       .row {
         display: flex;
         align-items: stretch;
       }
-      
+
       .col-sm-2 {
         display: flex;
         align-items: center;
@@ -793,7 +793,7 @@ footer.sticky-bottom {
       }
 
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         top: 0;
@@ -817,11 +817,11 @@ footer.sticky-bottom {
         align-items: center;
         justify-content: center;
         height: 100%;
-        
+
         &:hover {
           transform: scale(1.05);
         }
-        
+
         img {
           max-width: 100%;
           height: auto;
@@ -876,25 +876,25 @@ footer.sticky-bottom {
         line-height: 1.4;
         margin-bottom: 0.5rem;
         color: var(--global-text-color);
-        
+
         .title-link {
           color: var(--global-text-color);
           text-decoration: none;
           transition: all 0.2s ease;
           position: relative;
           display: inline-block;
-          
+
           &:hover {
             color: var(--global-theme-color);
             text-decoration: none;
-            
+
             &::after {
               width: 100%;
             }
           }
-          
+
           &::after {
-            content: '';
+            content: "";
             position: absolute;
             bottom: -2px;
             left: 0;
@@ -904,7 +904,7 @@ footer.sticky-bottom {
             transition: width 0.3s ease;
           }
         }
-        
+
         .title-text {
           color: var(--global-text-color);
         }
@@ -955,7 +955,7 @@ footer.sticky-bottom {
         color: var(--global-text-color-light, #666);
         margin-bottom: 0.5rem;
         font-style: italic;
-        
+
         em {
           font-weight: 500;
           color: var(--global-text-color);
@@ -967,7 +967,7 @@ footer.sticky-bottom {
         display: flex;
         flex-wrap: wrap;
         gap: 0.5rem;
-        
+
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-border-color, #ddd);
@@ -987,16 +987,16 @@ footer.sticky-bottom {
             transform: translateY(-1px);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
           }
-          
+
           &:first-child {
             margin-left: 0;
           }
         }
-        
+
         a.award.btn {
           border-color: var(--global-highlight-color);
           color: var(--global-highlight-color);
-          
+
           &:hover {
             background-color: var(--global-highlight-color);
             color: var(--global-card-bg-color, white);
@@ -1011,7 +1011,7 @@ footer.sticky-bottom {
         align-items: center;
         gap: 0.5rem;
         flex-wrap: wrap;
-        
+
         span {
           display: inline-block;
           color: $black-color;
@@ -1082,12 +1082,12 @@ footer.sticky-bottom {
         border-style: solid;
         background-color: rgba(var(--global-theme-color-rgb, 0, 123, 255), 0.05);
       }
-      
+
       div.award.hidden {
         border: dashed 1px var(--global-bg-color);
         background-color: var(--global-bg-color-light, rgba(0, 0, 0, 0.02));
       }
-      
+
       div.award.hidden.open {
         border-color: var(--global-highlight-color);
         border-style: solid;
@@ -1095,24 +1095,24 @@ footer.sticky-bottom {
       }
     }
   }
-  
+
   // 响应式设计
   @media (max-width: 768px) {
     ol.bibliography li {
       padding: 1rem;
       margin-bottom: 1.5rem;
-      
+
       .title {
         font-size: 1.1rem;
       }
-      
+
       .author {
         font-size: 0.9rem;
       }
-      
+
       .links {
         gap: 0.3rem;
-        
+
         a.btn {
           padding: 0.3rem 0.6rem;
           font-size: 0.8rem;
@@ -1120,19 +1120,19 @@ footer.sticky-bottom {
       }
     }
   }
-  
+
   @media (max-width: 576px) {
     ol.bibliography li {
       padding: 0.8rem;
-      
+
       .title {
         font-size: 1.05rem;
       }
-      
+
       .links {
         flex-direction: column;
         align-items: flex-start;
-        
+
         a.btn {
           width: 100%;
           text-align: center;

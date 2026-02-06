@@ -19,13 +19,14 @@ tags: [VSCode, uv, Python, GeoPandas, 空间分析]
 
 我们精选了以下两款核心工具，旨在为您提供一个轻量、高效且标准化的开发环境：
 
-* **Visual Studio Code (VS Code)**
-  * **定位**：目前最主流的轻量级代码编辑器（IDE）
-  * **作用**：提供代码编写、调试、Jupyter Notebook 渲染及文件管理功能
+- **Visual Studio Code (VS Code)**
 
-* **uv**
-  * **定位**：基于 Rust 编写的高性能 Python 包与项目管理器
-  * **优势**：相比传统的 Conda，uv 的依赖解析速度极快，且能通过 `uv.lock` 文件严格锁定环境版本，彻底解决"在他电脑上能跑，在我电脑上跑不通"的环境一致性问题
+  - **定位**：目前最主流的轻量级代码编辑器（IDE）
+  - **作用**：提供代码编写、调试、Jupyter Notebook 渲染及文件管理功能
+
+- **uv**
+  - **定位**：基于 Rust 编写的高性能 Python 包与项目管理器
+  - **优势**：相比传统的 Conda，uv 的依赖解析速度极快，且能通过 `uv.lock` 文件严格锁定环境版本，彻底解决"在他电脑上能跑，在我电脑上跑不通"的环境一致性问题
 
 ### 3. 环境配置指南 (Configuration Guide)
 
@@ -37,14 +38,14 @@ tags: [VSCode, uv, Python, GeoPandas, 空间分析]
 
 访问 [code.visualstudio.com](https://code.visualstudio.com/) 下载并安装。
 
-*配置插件*：启动 VS Code，点击左侧扩展图标（Extensions），搜索并安装 **Python** 和 **Jupyter** 插件。
+_配置插件_：启动 VS Code，点击左侧扩展图标（Extensions），搜索并安装 **Python** 和 **Jupyter** 插件。
 
 **2. 安装 uv**
 
 打开终端（Windows 用户请打开 PowerShell，Mac 用户打开 Terminal），复制并运行以下命令：
 
-* **Windows**: `powershell -c "irm https://astral.sh/uv/install.ps1 | iex"`
-* **Mac/Linux**: `curl -LsSf https://astral.sh/uv/install.sh | sh`
+- **Windows**: `powershell -c "irm https://astral.sh/uv/install.ps1 | iex"`
+- **Mac/Linux**: `curl -LsSf https://astral.sh/uv/install.sh | sh`
 
 #### Step 2: 初始化课程项目
 
@@ -66,13 +67,13 @@ uv add geopandas matplotlib folium mapclassify jupyterlab
 
 **库说明**：
 
-| 库名称 | 主要用途 | 核心功能 |
-|:-------|:---------|:---------|
-| `geopandas` | 空间数据处理 | 矢量数据读写、坐标转换、空间运算（交集、缓冲区） |
-| `matplotlib` | 静态可视化 | 绘制分级统计图、散点图、直方图等静态图表 |
-| `folium` | 交互式地图 | 生成交互式 Web 地图，支持缩放、平移、点击查询 |
-| `mapclassify` | 统计分级 | 提供自然断点法、分位数法等数据分级算法 |
-| `jupyterlab` | 开发环境 | 代码执行、Markdown 文档、可视化预览 |
+| 库名称        | 主要用途     | 核心功能                                         |
+| :------------ | :----------- | :----------------------------------------------- |
+| `geopandas`   | 空间数据处理 | 矢量数据读写、坐标转换、空间运算（交集、缓冲区） |
+| `matplotlib`  | 静态可视化   | 绘制分级统计图、散点图、直方图等静态图表         |
+| `folium`      | 交互式地图   | 生成交互式 Web 地图，支持缩放、平移、点击查询    |
+| `mapclassify` | 统计分级     | 提供自然断点法、分位数法等数据分级算法           |
+| `jupyterlab`  | 开发环境     | 代码执行、Markdown 文档、可视化预览              |
 
 **技术栈关系**：
 
@@ -141,11 +142,11 @@ world.head()
 
 **关键技术点解析**：
 
-* **Attribute Columns (属性列)**：如 `pop_est` (人口), `name` (名称)，与常规表格数据无异
-* **Geometry Column (几何列)**：
-  * 这是 GeoDataFrame 的核心
-  * 存储格式通常为 WKT (Well-Known Text) 对象，如 `POLYGON ((...))`
-  * 空间操作（如计算面积、求交集）均基于此列进行
+- **Attribute Columns (属性列)**：如 `pop_est` (人口), `name` (名称)，与常规表格数据无异
+- **Geometry Column (几何列)**：
+  - 这是 GeoDataFrame 的核心
+  - 存储格式通常为 WKT (Well-Known Text) 对象，如 `POLYGON ((...))`
+  - 空间操作（如计算面积、求交集）均基于此列进行
 
 ### 4. 静态可视化 (Static Visualization)
 
@@ -182,8 +183,8 @@ m
 
 **操作**：
 
-* 尝试缩放和平移地图
-* 观察这种可视化方式与静态图片的区别（更适合展示多尺度空间细节）
+- 尝试缩放和平移地图
+- 观察这种可视化方式与静态图片的区别（更适合展示多尺度空间细节）
 
 ### 6. 总结 (Summary)
 

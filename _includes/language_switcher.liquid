@@ -2,7 +2,7 @@
 {% assign page_url = page.url %}
 {% comment %} Get current language from page {% endcomment %}
 {% assign current_lang = page.lang %}
-{% if current_lang == nil %}{% assign current_lang = site.default_lang %}{% endif %}
+{% if current_lang == null %}{% assign current_lang = site.default_lang %}{% endif %}
 
 {% comment %} Remove language prefix from URL to get base path {% endcomment %}
 {% assign base_url = page_url | remove_first: '/en' | remove_first: '/zh' %}
@@ -20,8 +20,6 @@
     <a class="dropdown-item {% if current_lang == 'en' or current_lang == nil %}active{% endif %}" href="{{ base_url | relative_url }}">
       🇺🇸 English
     </a>
-    <a class="dropdown-item {% if current_lang == 'zh' %}active{% endif %}" href="{{ '/zh' | append: base_url | relative_url }}">
-      🇨🇳 中文
-    </a>
+    <a class="dropdown-item {% if current_lang == 'zh' %}active{% endif %}" href="{{ '/zh' | append: base_url | relative_url }}"> 🇨🇳 中文 </a>
   </div>
 </li>

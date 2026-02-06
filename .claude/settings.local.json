@@ -15,7 +15,9 @@
       "Bash(docker compose:*)",
       "Bash(ls:*)",
       "Bash(curl:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(npx prettier:*)",
+      "Bash(npm install:*)"
     ]
   }
 }

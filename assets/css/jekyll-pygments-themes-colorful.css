@@ -57,7 +57,7 @@ table:not(.table):not(.table-sm) tr:hover {
 /* 代码块内的表格样式 */
 .highlight + table,
 table code {
-  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 }
 
 /* 复制按钮样式修复 */
