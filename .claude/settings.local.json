@@ -17,7 +17,8 @@
       "Bash(curl:*)",
       "Bash(find:*)",
       "Bash(npx prettier:*)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(grep:*)"
     ]
   }
 }
