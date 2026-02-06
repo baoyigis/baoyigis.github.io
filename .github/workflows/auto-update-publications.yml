@@ -1,0 +1,100 @@
+name: Auto Update Publications from Google Scholar
+
+on:
+  schedule:
+    - cron: "0 0 * * 1" # 每周一午夜运行
+    - cron: "0 0 * * 4" # 每周四午夜运行
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  auto-update-publications:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        # 如果需要触发其他工作流，取消注释并配置PAT
+        # with:
+        #   token: ${{ secrets.PAT }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          echo "🔧 Installing dependencies..."
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Save current BibTeX file hash
+        id: before
+        run: |
+          echo "📦 Checking existing BibTeX file hash..."
+          if [ -f _bibliography/papers.bib ]; then
+            sha_before=$(sha256sum _bibliography/papers.bib | awk '{print $1}')
+            echo "sha_before=$sha_before" >> $GITHUB_OUTPUT
+            echo "📝 SHA before: $sha_before"
+          else
+            echo "sha_before=none" >> $GITHUB_OUTPUT
+            echo "📝 No existing BibTeX file found."
+          fi
+
+      - name: Run auto update publications script
+        id: run_update
+        shell: bash
+        run: |
+          set +e
+          echo "🚀 Running publication auto-update script..."
+          start_time=$(date)
+          timeout 90 python bin/auto_update_publications.py
+          status=$?
+          end_time=$(date)
+          if [ $status -eq 0 ]; then
+            echo "✅ Publication update succeeded (started at $start_time, ended at $end_time)."
+            echo "✅ Publication update succeeded." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ Publication update script failed with exit code $status (started at $start_time, ended at $end_time)."
+            echo "❌ Publication update script failed with exit code $status." >> $GITHUB_STEP_SUMMARY
+          fi
+          set -e
+
+      - name: Save new BibTeX file hash
+        id: after
+        run: |
+          echo "🔍 Checking updated BibTeX file hash..."
+          if [ -f _bibliography/papers.bib ]; then
+            sha_after=$(sha256sum _bibliography/papers.bib | awk '{print $1}')
+            echo "sha_after=$sha_after" >> $GITHUB_OUTPUT
+            echo "📝 SHA after: $sha_after"
+          else
+            echo "sha_after=none" >> $GITHUB_OUTPUT
+            echo "📝 BibTeX file was not created or is missing."
+          fi
+
+      - name: Report BibTeX file change in summary
+        run: |
+          echo "📋 Comparing BibTeX file hashes..."
+          if [ "${{ steps.before.outputs.sha_before }}" != "${{ steps.after.outputs.sha_after }}" ]; then
+            echo "✅ _bibliography/papers.bib was updated with new publications."
+            echo "✅ _bibliography/papers.bib was updated with new publications." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️ No new publications found. BibTeX file unchanged."
+            echo "ℹ️ No new publications found. BibTeX file unchanged." >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          echo "🔧 Git configured."
+
+      - name: Commit and push if changed
+        run: |
+          git add _bibliography/papers.bib
+          git diff --staged --quiet || (
+            echo "📤 Committing and pushing changes..."
+            git commit -m "Auto-update: Add new publications from Google Scholar"
+            git push
+          )
