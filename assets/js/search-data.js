@@ -44,15 +44,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-lab-0-构建现代空间数据科学环境",
+        },{id: "post-lesson-0-构建现代空间数据科学环境",
         
-          title: "Lab 0: 构建现代空间数据科学环境",
+          title: "Lesson 0: 构建现代空间数据科学环境",
         
         description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/lab0/";
+            window.location.href = "/blog/2025/lesson0/";
           
         },
       },{id: "books-the-godfather",
