@@ -18,6 +18,14 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌍 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
+# -----------------------------------------------------------------------------
+# Polyglot - Multilingual Support
+# -----------------------------------------------------------------------------
+languages: ["en", "zh"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "assets"]
+parallel_localization: true
+
 url: https://baoyigis.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
@@ -86,8 +94,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: 空间分析与GeoAI # blog_name will be displayed in your blog page
+blog_description: 城市时空大数据挖掘、建成环境研究、地理智能应用的教学与研究笔记
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -263,8 +271,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["空间分析", "Python", "GeoPandas", "GeoAI", "数据可视化"] # these tags will be displayed on the front page of your blog
+display_categories: ["空间分析", "环境配置"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
