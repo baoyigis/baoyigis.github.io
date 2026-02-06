@@ -1,0 +1,195 @@
+/* Modern Colorful Theme - 现代配色方案，护眼且高对比度 */
+
+/* ===== 表格样式 ===== */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%;
+  margin: 2.5em 0;
+  font-size: 1.1em;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+table th,
+table td {
+  padding: 18px 28px;
+  text-align: left;
+  border-bottom: 1px solid #e1e4e8;
+  line-height: 2;
+}
+
+table th {
+  background: linear-gradient(to bottom, #f9fafb 0%, #f3f4f6 100%);
+  font-weight: 700;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #374151;
+  border-bottom: 2px solid #d1d5db;
+  padding: 20px 28px;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+table tr:hover {
+  background-color: #f3f4f6;
+  transition: background-color 0.15s ease;
+}
+
+/* 代码块内的表格样式 */
+.highlight + table,
+table code {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+/* ===== 代码高亮样式 ===== */
+.highlight pre,
+.highlight code {
+  white-space: pre !important;
+  overflow-x: auto !important;
+}
+
+.highlight pre {
+  background-color: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 16px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.highlight .hll {
+  background-color: #fff8c5;
+}
+
+/* 注释 - 柔和灰色 */
+.highlight .c,
+.highlight .cm,
+.highlight .cp,
+.highlight .c1,
+.highlight .cs {
+  color: #6e7781;
+  font-style: italic;
+}
+
+/* 错误 - 柔和红色 */
+.highlight .err {
+  color: #cf222e;
+  background-color: #ffebe9;
+}
+
+/* 关键字 - 深紫色 */
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt {
+  color: #cf222e;
+  font-weight: 600;
+}
+
+/* 运算符 - 深色 */
+.highlight .o {
+  color: #24292f;
+}
+
+/* 标点符号 - 深色 */
+.highlight .p {
+  color: #24292f;
+}
+
+/* 函数名 - 蓝紫色 */
+.highlight .nf,
+.highlight .nc {
+  color: #8250df;
+  font-weight: 600;
+}
+
+/* 类名 - 蓝色 */
+.highlight .nn {
+  color: #0550ae;
+  font-weight: 600;
+}
+
+/* 变量名 - 深色 */
+.highlight .n {
+  color: #24292f;
+}
+.highlight .nv {
+  color: #116329;
+}
+
+/* 内置函数 - 深蓝色 */
+.highlight .nb {
+  color: #0550ae;
+}
+
+/* 数字 - 深绿色 */
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .il {
+  color: #0550ae;
+}
+
+/* 字符串 - 深绿色 */
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .s1 {
+  color: #0a3069;
+}
+
+/* 正则表达式字符串 */
+.highlight .sr {
+  color: #0550ae;
+}
+
+/* 字符串符号 */
+.highlight .ss {
+  color: #cf222e;
+}
+
+/* 装饰器 - 蓝色 */
+.highlight .nd {
+  color: #8250df;
+}
+
+/* 属性 - 蓝绿色 */
+.highlight .na {
+  color: #116329;
+}
+
+/* 标签 - 深紫色 */
+.highlight .nt {
+  color: #cf222e;
+}
+
+/* 通用样式 */
+.highlight .g,
+.highlight .l,
+.highlight .x {
+  color: #24292f;
+}
+.highlight .w {
+  color: #6e7781;
+}

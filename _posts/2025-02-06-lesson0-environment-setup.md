@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Lesson 0: 构建现代空间数据科学环境"
 permalink: /blog/2025/lesson0/
 date: 2025-02-06 10:00:00 +0800
@@ -63,7 +64,28 @@ uv init
 uv add geopandas matplotlib folium mapclassify jupyterlab
 ```
 
-此命令将自动创建虚拟环境（.venv），并安装处理矢量数据的核心库 `geopandas` 及其可视化依赖。
+**库说明**：
+
+| 库名称 | 主要用途 | 核心功能 |
+|:-------|:---------|:---------|
+| `geopandas` | 空间数据处理 | 矢量数据读写、坐标转换、空间运算（交集、缓冲区） |
+| `matplotlib` | 静态可视化 | 绘制分级统计图、散点图、直方图等静态图表 |
+| `folium` | 交互式地图 | 生成交互式 Web 地图，支持缩放、平移、点击查询 |
+| `mapclassify` | 统计分级 | 提供自然断点法、分位数法等数据分级算法 |
+| `jupyterlab` | 开发环境 | 代码执行、Markdown 文档、可视化预览 |
+
+**技术栈关系**：
+
+```
+geopandas (空间数据处理)
+    ├── matplotlib (静态可视化)
+    ├── folium (交互式可视化)
+    └── mapclassify (统计分级算法)
+
+jupyterlab (开发环境容器)
+```
+
+此命令将自动创建虚拟环境（`.venv`），并安装上述完整的空间分析技术栈。
 
 #### Step 3: 验证环境
 
@@ -89,6 +111,7 @@ uv run jupyter lab
 ```python
 # 导入空间数据处理核心库
 import geopandas as gpd
+
 # 导入绘图库，用于解决潜在的中文显示问题（可选）
 import matplotlib.pyplot as plt
 

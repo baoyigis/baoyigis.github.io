@@ -12,7 +12,9 @@
       "Bash(gem pristine:*)",
       "Bash(gem:*)",
       "Bash(bundle:*)",
-      "Bash(docker compose:*)"
+      "Bash(docker compose:*)",
+      "Bash(ls:*)",
+      "Bash(curl:*)"
     ]
   }
 }
