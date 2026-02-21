@@ -59,10 +59,29 @@ uv init
 
 此命令会创建 `pyproject.toml` 配置文件，用于记录项目依赖。
 
-**2. 安装空间分析依赖栈**
+**2. 创建虚拟环境**
 
 ```bash
-uv add geopandas matplotlib folium mapclassify jupyterlab
+# 创建名为 .venv 的虚拟环境
+uv venv
+```
+
+**3. 激活虚拟环境**
+
+```bash
+# macOS/Linux
+source .venv/bin/activate
+
+# Windows
+.venv\Scripts\activate
+```
+
+激活后，终端提示符前会显示 `(.venv)` 标识。
+
+**4. 安装空间分析依赖栈**
+
+```bash
+uv add geopandas matplotlib folium mapclassify jupyterlab ipykernel geodatasets
 ```
 
 **库说明**：
@@ -74,6 +93,8 @@ uv add geopandas matplotlib folium mapclassify jupyterlab
 | `folium`      | 交互式地图   | 生成交互式 Web 地图，支持缩放、平移、点击查询    |
 | `mapclassify` | 统计分级     | 提供自然断点法、分位数法等数据分级算法           |
 | `jupyterlab`  | 开发环境     | 代码执行、Markdown 文档、可视化预览              |
+| `ipykernel`   | Jupyter 内核 | 连接 Python 虚拟环境与 Jupyter Notebook          |
+| `geodatasets` | 示例数据集   | 提供纽约市行政区等空间分析示例数据               |
 
 **技术栈关系**：
 
@@ -86,7 +107,7 @@ geopandas (空间数据处理)
 jupyterlab (开发环境容器)
 ```
 
-此命令将自动创建虚拟环境（`.venv`），并安装上述完整的空间分析技术栈。
+**注意**：虚拟环境需要在激活状态下才能通过 `uv add` 安装依赖包。
 
 #### Step 3: 验证环境
 
@@ -121,15 +142,26 @@ print("Environment loaded successfully.")
 
 ### 2. 数据加载 (Data Loading)
 
-使用 GeoPandas 内置数据集演示，避免路径配置错误。
+**注意**：GeoPandas 1.0+ 已移除内置数据集。使用 `geodatasets` 包获取示例数据：
 
 ```python
-# 读取内置的 'naturalearth_lowres' 世界地图数据集
-world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
+# 导入 geodatasets 包
+import geodatasets
+
+# 读取纽约市5个行政区边界数据
+# nybb = New York Borough Boundaries
+nybb = gpd.read_file(geodatasets.get_path('nybb'))
 
 # 检查数据加载状态
-print(f"Data CRS: {world.crs}")  # 查看坐标参考系统
+print(f"Data CRS: {nybb.crs}")
+print(f"Shape: {nybb.shape}")  # 5个行政区
+print(f"Columns: {nybb.columns.tolist()}")
+
+# 查看行政区名称
+print(nybb[['BoroName', 'BoroCode']].head())
 ```
+
+本课程使用 **纽约市行政区数据 (nybb)** 进行演示，数据量小且属性完整。
 
 ### 3. 核心数据结构解析 (The GeoDataFrame)
 
@@ -137,12 +169,12 @@ print(f"Data CRS: {world.crs}")  # 查看坐标参考系统
 
 ```python
 # 查看前 5 行数据
-world.head()
+nybb.head()
 ```
 
 **关键技术点解析**：
 
-- **Attribute Columns (属性列)**：如 `pop_est` (人口), `name` (名称)，与常规表格数据无异
+- **Attribute Columns (属性列)**：如 `BoroName` (行政区名), `BoroCode` (行政区代码)，与常规表格数据无异
 - **Geometry Column (几何列)**：
   - 这是 GeoDataFrame 的核心
   - 存储格式通常为 WKT (Well-Known Text) 对象，如 `POLYGON ((...))`
@@ -154,13 +186,13 @@ world.head()
 
 ```python
 # 基础绘图：直接映射 Geometry 列
-world.plot()
+nybb.plot()
 
-# 分级统计图 (Choropleth Map)
-# column: 指定用于着色的属性列（此处为人口）
+# 按行政区名称着色（类似分级统计图）
+# column: 指定用于着色的属性列（此处为行政区名）
 # legend: 显示图例
 # figsize: 指定画布尺寸 (英寸)
-world.plot(column='pop_est', legend=True, figsize=(12, 8))
+nybb.plot(column='BoroName', legend=True, figsize=(10, 6), cmap='Set3')
 ```
 
 ### 5. 交互式可视化 (Interactive Visualization)
@@ -170,11 +202,11 @@ world.plot(column='pop_est', legend=True, figsize=(12, 8))
 ```python
 # 使用 .explore() 方法生成交互式地图
 # 该方法会自动处理坐标投影转换，生成 Leaflet 地图对象
-m = world.explore(
-    column='pop_est',          # 映射属性
-    tooltip=['name', 'pop_est'], # 悬浮交互配置
-    cmap='Spectral_r',         # 配色方案
-    tiles='CartoDB positron'   # 底图样式
+m = nybb.explore(
+    column='BoroName',          # 按行政区名着色
+    tooltip=['BoroName', 'BoroCode'], # 悬浮显示信息
+    cmap='Set3',                # 配色方案
+    tiles='CartoDB positron'    # 底图样式
 )
 
 # 渲染地图对象
