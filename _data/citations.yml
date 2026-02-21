@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-02-04'
+  last_updated: '2026-02-11'
 papers:
   EAMVOhUAAAAJ:0EnyYjriUFMC:
     citations: 49
     title: 'Examining active travel behavior through explainable machine learning: Insights from Beijing, China'
     year: '2024'
   EAMVOhUAAAAJ:2osOgNQ5qMEC:
-    citations: 122
+    citations: 121
     title: High-resolution mapping of the urban built environment stocks in Beijing
     year: '2020'
   EAMVOhUAAAAJ:3fE2CSJIrl8C:
@@ -18,7 +18,7 @@ papers:
     title: 'Balancing efficiency and emissions through travel mode shifts: A multi-objective analysis from Beijing, China'
     year: '2026'
   EAMVOhUAAAAJ:4TOpqqG69KYC:
-    citations: 0
+    citations: 1
     title: Multi-level Priors-Guided Diffusion-based Remote Sensing Image Super-Resolution
     year: '2025'
   EAMVOhUAAAAJ:8k81kl-MbHgC:
@@ -26,7 +26,7 @@ papers:
     title: "A Scene\u2013Object\u2013Economy Framework for Identifying and Validating Urban\u2013Rural Fringe Using Multisource Geospatial Big Data"
     year: '2024'
   EAMVOhUAAAAJ:9yKSN-GCB0IC:
-    citations: 62
+    citations: 61
     title: Global urban subway development, construction material stocks, and embodied carbon emissions
     year: '2021'
   EAMVOhUAAAAJ:IjCSPb-OGe4C:
@@ -34,7 +34,7 @@ papers:
     title: Identifying spatiotemporal characteristics and driving factors for road traffic CO2 emissions
     year: '2022'
   EAMVOhUAAAAJ:KlAtU1dfN6UC:
-    citations: 12
+    citations: 11
     title: 'Spatially-optimized greenspace for more effective urban heat mitigation: Insights from regional cooling heterogeneity via explainable machine learning'
     year: '2025'
   EAMVOhUAAAAJ:LkGwnXOMwfcC:
@@ -58,7 +58,7 @@ papers:
     title: 'Doufu: a double fusion joint learning method for driving trajectory representation'
     year: '2022'
   EAMVOhUAAAAJ:ULOm3_A8WrAC:
-    citations: 4
+    citations: 6
     title: Quantifying the impact of building material stock and green infrastructure on urban heat island intensity
     year: '2025'
   EAMVOhUAAAAJ:UeHWp8X0CEIC:
@@ -86,7 +86,7 @@ papers:
     title: 'Gwrboost: a geographically weighted gradient boosting method for explainable quantification of spatially-varying relationships'
     year: '2022'
   EAMVOhUAAAAJ:Zph67rFs4hoC:
-    citations: 4
+    citations: 3
     title: Traffic prediction and road space optimization for the integration of dockless bike-sharing and subway
     year: '2025'
   EAMVOhUAAAAJ:_FxGoFyzp5QC:
@@ -106,7 +106,7 @@ papers:
     title: "Perceiving Beijing\u2019s \u201Ccity image\u201D across different groups based on geotagged social media data"
     year: '2020'
   EAMVOhUAAAAJ:eQOLeE2rZwMC:
-    citations: 26
+    citations: 27
     title: "High\u2010resolution quantification of building stock using multi\u2010source remote sensing imagery and deep learning"
     year: '2023'
   EAMVOhUAAAAJ:hqOjcs7Dif8C:
@@ -117,6 +117,10 @@ papers:
     citations: 5
     title: 'Assessing and mitigating the carbon emissions from illegal urban buildings: A spatial lifecycle analysis'
     year: '2025'
+  EAMVOhUAAAAJ:mVmsd5A6BfQC:
+    citations: 0
+    title: Multimodal large language models meet self-supervised diffusion for real-world aerial image super-resolution
+    year: '2026'
   EAMVOhUAAAAJ:qjMakFHDy7sC:
     citations: 37
     title: 'Site selection for hybrid offshore wind and wave power plants using a four-stage framework: A case study in Hainan, China'
