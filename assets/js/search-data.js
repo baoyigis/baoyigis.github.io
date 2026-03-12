@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-lesson-0-构建现代空间数据科学环境",
+        },{id: "post-lesson-1-osmnx-实战-从数据获取到空间分析",
+        
+          title: "Lesson 1: OSMnx 实战 - 从数据获取到空间分析",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/lesson1/";
+          
+        },
+      },{id: "post-lesson-0-构建现代空间数据科学环境",
         
           title: "Lesson 0: 构建现代空间数据科学环境",
         
