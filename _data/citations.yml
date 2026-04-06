@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-03-25'
+  last_updated: '2026-04-06'
 papers:
   EAMVOhUAAAAJ:0EnyYjriUFMC:
-    citations: 62
+    citations: 63
     title: 'Examining active travel behavior through explainable machine learning: Insights from Beijing, China'
     year: '2024'
   EAMVOhUAAAAJ:2osOgNQ5qMEC:
-    citations: 126
+    citations: 127
     title: High-resolution mapping of the urban built environment stocks in Beijing
     year: '2020'
   EAMVOhUAAAAJ:4DMP91E08xMC:
@@ -26,7 +26,7 @@ papers:
     title: Explainable urban renewal prediction at building-scale using hierarchical graph neural networks
     year: '2026'
   EAMVOhUAAAAJ:9yKSN-GCB0IC:
-    citations: 66
+    citations: 67
     title: Global urban subway development, construction material stocks, and embodied carbon emissions
     year: '2021'
   EAMVOhUAAAAJ:IjCSPb-OGe4C:
@@ -34,11 +34,11 @@ papers:
     title: Identifying spatiotemporal characteristics and driving factors for road traffic CO2 emissions
     year: '2022'
   EAMVOhUAAAAJ:KlAtU1dfN6UC:
-    citations: 16
+    citations: 17
     title: 'Spatially-optimized greenspace for more effective urban heat mitigation: Insights from regional cooling heterogeneity via explainable machine learning'
     year: '2025'
   EAMVOhUAAAAJ:LkGwnXOMwfcC:
-    citations: 13
+    citations: 14
     title: "Matching end-of-life household vehicle generation and recycling capacity in Chinese cities: A spatio-temporal analysis for 2022\u20132050"
     year: '2023'
   EAMVOhUAAAAJ:M3ejUd6NZC8C:
@@ -94,7 +94,7 @@ papers:
     title: Traffic prediction and road space optimization for the integration of dockless bike-sharing and subway
     year: '2025'
   EAMVOhUAAAAJ:_FxGoFyzp5QC:
-    citations: 36
+    citations: 38
     title: Big geodata reveals spatial patterns of built environment stocks across and within cities in China
     year: '2024'
   EAMVOhUAAAAJ:_kc_bZDykSQC:
@@ -110,7 +110,7 @@ papers:
     title: "Perceiving Beijing\u2019s \u201Ccity image\u201D across different groups based on geotagged social media data"
     year: '2020'
   EAMVOhUAAAAJ:eQOLeE2rZwMC:
-    citations: 29
+    citations: 30
     title: "High\u2010resolution quantification of building stock using multi\u2010source remote sensing imagery and deep learning"
     year: '2023'
   EAMVOhUAAAAJ:hqOjcs7Dif8C:
@@ -126,7 +126,7 @@ papers:
     title: Multimodal large language models meet self-supervised diffusion for real-world aerial image super-resolution
     year: '2026'
   EAMVOhUAAAAJ:qjMakFHDy7sC:
-    citations: 37
+    citations: 38
     title: 'Site selection for hybrid offshore wind and wave power plants using a four-stage framework: A case study in Hainan, China'
     year: '2022'
   EAMVOhUAAAAJ:roLk4NBRz8UC:
