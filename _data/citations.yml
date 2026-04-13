@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-04-06'
+  last_updated: '2026-04-13'
 papers:
   EAMVOhUAAAAJ:0EnyYjriUFMC:
-    citations: 63
+    citations: 65
     title: 'Examining active travel behavior through explainable machine learning: Insights from Beijing, China'
     year: '2024'
   EAMVOhUAAAAJ:2osOgNQ5qMEC:
-    citations: 127
+    citations: 128
     title: High-resolution mapping of the urban built environment stocks in Beijing
     year: '2020'
   EAMVOhUAAAAJ:4DMP91E08xMC:
@@ -30,11 +30,11 @@ papers:
     title: Global urban subway development, construction material stocks, and embodied carbon emissions
     year: '2021'
   EAMVOhUAAAAJ:IjCSPb-OGe4C:
-    citations: 85
+    citations: 87
     title: Identifying spatiotemporal characteristics and driving factors for road traffic CO2 emissions
     year: '2022'
   EAMVOhUAAAAJ:KlAtU1dfN6UC:
-    citations: 17
+    citations: 19
     title: 'Spatially-optimized greenspace for more effective urban heat mitigation: Insights from regional cooling heterogeneity via explainable machine learning'
     year: '2025'
   EAMVOhUAAAAJ:LkGwnXOMwfcC:
@@ -102,7 +102,7 @@ papers:
     title: Dynamic graph attention network for local leisure event recommendation in event-based social networks
     year: '2025'
   EAMVOhUAAAAJ:aqlVkmm33-oC:
-    citations: 0
+    citations: 1
     title: 'Unveiling the overestimated carbon reductions of dockless bike-sharing: A data-driven analysis'
     year: '2026'
   EAMVOhUAAAAJ:d1gkVwhDpl0C:
@@ -126,7 +126,7 @@ papers:
     title: Multimodal large language models meet self-supervised diffusion for real-world aerial image super-resolution
     year: '2026'
   EAMVOhUAAAAJ:qjMakFHDy7sC:
-    citations: 38
+    citations: 39
     title: 'Site selection for hybrid offshore wind and wave power plants using a four-stage framework: A case study in Hainan, China'
     year: '2022'
   EAMVOhUAAAAJ:roLk4NBRz8UC:
