@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-22'
+  last_updated: '2026-04-27'
 papers:
   EAMVOhUAAAAJ:0EnyYjriUFMC:
-    citations: 67
+    citations: 68
     title: 'Examining active travel behavior through explainable machine learning: Insights from Beijing, China'
     year: '2024'
   EAMVOhUAAAAJ:2osOgNQ5qMEC:
@@ -30,7 +30,7 @@ papers:
     title: Global urban subway development, construction material stocks, and embodied carbon emissions
     year: '2021'
   EAMVOhUAAAAJ:IjCSPb-OGe4C:
-    citations: 87
+    citations: 88
     title: Identifying spatiotemporal characteristics and driving factors for road traffic CO2 emissions
     year: '2022'
   EAMVOhUAAAAJ:KlAtU1dfN6UC:
@@ -38,7 +38,7 @@ papers:
     title: 'Spatially-optimized greenspace for more effective urban heat mitigation: Insights from regional cooling heterogeneity via explainable machine learning'
     year: '2025'
   EAMVOhUAAAAJ:LkGwnXOMwfcC:
-    citations: 15
+    citations: 17
     title: "Matching end-of-life household vehicle generation and recycling capacity in Chinese cities: A spatio-temporal analysis for 2022\u20132050"
     year: '2023'
   EAMVOhUAAAAJ:M3ejUd6NZC8C:
@@ -86,7 +86,7 @@ papers:
     title: 'Assessing carbon sink potentials in the built environment: A study of 40 Chinese cities using a bottom-up high-resolution approach'
     year: '2025'
   EAMVOhUAAAAJ:YsMSGLbcyi4C:
-    citations: 17
+    citations: 18
     title: 'GWRBoost: A geographically weighted gradient boosting method for explainable quantification of spatially-varying relationships'
     year: '2022'
   EAMVOhUAAAAJ:Zph67rFs4hoC:
@@ -106,7 +106,7 @@ papers:
     title: 'Unveiling the overestimated carbon reductions of dockless bike-sharing: A data-driven analysis'
     year: '2026'
   EAMVOhUAAAAJ:d1gkVwhDpl0C:
-    citations: 49
+    citations: 50
     title: "Perceiving Beijing\u2019s \u201Ccity image\u201D across different groups based on geotagged social media data"
     year: '2020'
   EAMVOhUAAAAJ:eQOLeE2rZwMC:
@@ -142,6 +142,6 @@ papers:
     title: "\u57CE\u5E02\u5EFA\u6210\u73AF\u5883\u5B58\u91CF\u7684\u7A7A\u95F4\u8BA1\u7B97: \u8FDB\u5C55\u53CA\u5C55\u671B"
     year: '2022'
   EAMVOhUAAAAJ:zYLM7Y9cAGgC:
-    citations: 59
+    citations: 60
     title: 'ConvGCN-RF: A hybrid learning model for commuting flow prediction considering geographical semantics and neighborhood effects'
     year: '2023'
