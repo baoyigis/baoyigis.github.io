@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-27'
+  last_updated: '2026-05-04'
 papers:
   EAMVOhUAAAAJ:0EnyYjriUFMC:
     citations: 68
@@ -30,7 +30,7 @@ papers:
     title: Global urban subway development, construction material stocks, and embodied carbon emissions
     year: '2021'
   EAMVOhUAAAAJ:IjCSPb-OGe4C:
-    citations: 88
+    citations: 90
     title: Identifying spatiotemporal characteristics and driving factors for road traffic CO2 emissions
     year: '2022'
   EAMVOhUAAAAJ:KlAtU1dfN6UC:
@@ -106,9 +106,13 @@ papers:
     title: 'Unveiling the overestimated carbon reductions of dockless bike-sharing: A data-driven analysis'
     year: '2026'
   EAMVOhUAAAAJ:d1gkVwhDpl0C:
-    citations: 50
+    citations: 51
     title: "Perceiving Beijing\u2019s \u201Ccity image\u201D across different groups based on geotagged social media data"
     year: '2020'
+  EAMVOhUAAAAJ:dhFuZR0502QC:
+    citations: 0
+    title: 'GWRBoost: A Geographically Weighted Gradient Boosting Framework for Enhanced Explainable Quantification of Spatially Varying Relationships'
+    year: '2026'
   EAMVOhUAAAAJ:eQOLeE2rZwMC:
     citations: 30
     title: "High\u2010resolution quantification of building stock using multi\u2010source remote sensing imagery and deep learning"
@@ -142,6 +146,6 @@ papers:
     title: "\u57CE\u5E02\u5EFA\u6210\u73AF\u5883\u5B58\u91CF\u7684\u7A7A\u95F4\u8BA1\u7B97: \u8FDB\u5C55\u53CA\u5C55\u671B"
     year: '2022'
   EAMVOhUAAAAJ:zYLM7Y9cAGgC:
-    citations: 60
+    citations: 61
     title: 'ConvGCN-RF: A hybrid learning model for commuting flow prediction considering geographical semantics and neighborhood effects'
     year: '2023'
