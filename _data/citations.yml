@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-18'
+  last_updated: '2026-05-20'
 papers:
   EAMVOhUAAAAJ:0EnyYjriUFMC:
     citations: 69
@@ -46,7 +46,7 @@ papers:
     title: "Matching end-of-life household vehicle generation and recycling capacity in Chinese cities: A spatio-temporal analysis for 2022\u20132050"
     year: '2023'
   EAMVOhUAAAAJ:M3ejUd6NZC8C:
-    citations: 4
+    citations: 5
     title: Background environment mitigate heat islands from inadequate urban green coverage while amplifying socioeconomic thermal inequities
     year: '2025'
   EAMVOhUAAAAJ:MXK_kJrjxJIC:
@@ -150,6 +150,6 @@ papers:
     title: "\u57CE\u5E02\u5EFA\u6210\u73AF\u5883\u5B58\u91CF\u7684\u7A7A\u95F4\u8BA1\u7B97: \u8FDB\u5C55\u53CA\u5C55\u671B"
     year: '2022'
   EAMVOhUAAAAJ:zYLM7Y9cAGgC:
-    citations: 61
+    citations: 62
     title: 'ConvGCN-RF: A hybrid learning model for commuting flow prediction considering geographical semantics and neighborhood effects'
     year: '2023'
