@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-05-20'
+  last_updated: '2026-05-29'
 papers:
   EAMVOhUAAAAJ:0EnyYjriUFMC:
-    citations: 69
+    citations: 70
     title: 'Examining active travel behavior through explainable machine learning: Insights from Beijing, China'
     year: '2024'
   EAMVOhUAAAAJ:2osOgNQ5qMEC:
@@ -30,7 +30,7 @@ papers:
     title: Explainable urban renewal prediction at building-scale using hierarchical graph neural networks
     year: '2026'
   EAMVOhUAAAAJ:9yKSN-GCB0IC:
-    citations: 71
+    citations: 72
     title: Global urban subway development, construction material stocks, and embodied carbon emissions
     year: '2021'
   EAMVOhUAAAAJ:IjCSPb-OGe4C:
@@ -142,7 +142,7 @@ papers:
     title: 'Spatial calculation of urban built environment stock: Progress and prospects'
     year: '2022'
   EAMVOhUAAAAJ:u-x6o8ySG0sC:
-    citations: 72
+    citations: 73
     title: "A BiLSTM-CNN model for predicting users\u2019 next locations based on geotagged social media"
     year: '2021'
   EAMVOhUAAAAJ:ufrVoPGSRksC:
@@ -150,6 +150,6 @@ papers:
     title: "\u57CE\u5E02\u5EFA\u6210\u73AF\u5883\u5B58\u91CF\u7684\u7A7A\u95F4\u8BA1\u7B97: \u8FDB\u5C55\u53CA\u5C55\u671B"
     year: '2022'
   EAMVOhUAAAAJ:zYLM7Y9cAGgC:
-    citations: 62
+    citations: 63
     title: 'ConvGCN-RF: A hybrid learning model for commuting flow prediction considering geographical semantics and neighborhood effects'
     year: '2023'
