@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-29'
+  last_updated: '2026-06-10'
 papers:
   EAMVOhUAAAAJ:0EnyYjriUFMC:
     citations: 70
@@ -14,7 +14,7 @@ papers:
     title: 'Balancing efficiency and emissions through travel mode shifts: A multi-objective analysis from Beijing, China'
     year: '2026'
   EAMVOhUAAAAJ:4TOpqqG69KYC:
-    citations: 4
+    citations: 5
     title: Multi-level Priors-Guided Diffusion-based Remote Sensing Image Super-Resolution
     year: '2025'
   EAMVOhUAAAAJ:7PzlFSSx8tAC:
@@ -26,7 +26,7 @@ papers:
     title: "A scene\u2013object\u2013economy framework for identifying and validating urban\u2013rural fringe using multisource geospatial big data"
     year: '2024'
   EAMVOhUAAAAJ:9ZlFYXVOiuMC:
-    citations: 0
+    citations: 1
     title: Explainable urban renewal prediction at building-scale using hierarchical graph neural networks
     year: '2026'
   EAMVOhUAAAAJ:9yKSN-GCB0IC:
@@ -98,7 +98,7 @@ papers:
     title: Traffic prediction and road space optimization for the integration of dockless bike-sharing and subway
     year: '2025'
   EAMVOhUAAAAJ:_FxGoFyzp5QC:
-    citations: 40
+    citations: 42
     title: Big geodata reveals spatial patterns of built environment stocks across and within cities in China
     year: '2024'
   EAMVOhUAAAAJ:_kc_bZDykSQC:
@@ -114,7 +114,7 @@ papers:
     title: "Perceiving Beijing\u2019s \u201Ccity image\u201D across different groups based on geotagged social media data"
     year: '2020'
   EAMVOhUAAAAJ:dhFuZR0502QC:
-    citations: 0
+    citations: 1
     title: 'GWRBoost: A Geographically Weighted Gradient Boosting Framework for Enhanced Explainable Quantification of Spatially Varying Relationships'
     year: '2026'
   EAMVOhUAAAAJ:eQOLeE2rZwMC:
@@ -126,7 +126,7 @@ papers:
     title: 'Spatial Blockchain: Enhancing Spatial Queries and Applications through Integrating Blockchain and Spatial Database Technologies'
     year: '2023'
   EAMVOhUAAAAJ:kNdYIx-mwKoC:
-    citations: 7
+    citations: 6
     title: 'Assessing and mitigating the carbon emissions from illegal urban buildings: A spatial lifecycle analysis'
     year: '2025'
   EAMVOhUAAAAJ:mVmsd5A6BfQC:
@@ -150,6 +150,6 @@ papers:
     title: "\u57CE\u5E02\u5EFA\u6210\u73AF\u5883\u5B58\u91CF\u7684\u7A7A\u95F4\u8BA1\u7B97: \u8FDB\u5C55\u53CA\u5C55\u671B"
     year: '2022'
   EAMVOhUAAAAJ:zYLM7Y9cAGgC:
-    citations: 63
+    citations: 64
     title: 'ConvGCN-RF: A hybrid learning model for commuting flow prediction considering geographical semantics and neighborhood effects'
     year: '2023'
