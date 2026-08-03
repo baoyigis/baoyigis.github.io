@@ -1,21 +1,21 @@
 metadata:
-  last_updated: '2026-06-10'
+  last_updated: '2026-08-03'
 papers:
   EAMVOhUAAAAJ:0EnyYjriUFMC:
-    citations: 70
+    citations: 75
     title: 'Examining active travel behavior through explainable machine learning: Insights from Beijing, China'
     year: '2024'
   EAMVOhUAAAAJ:2osOgNQ5qMEC:
-    citations: 131
+    citations: 137
     title: High-resolution mapping of the urban built environment stocks in Beijing
     year: '2020'
   EAMVOhUAAAAJ:4DMP91E08xMC:
-    citations: 0
+    citations: 1
     title: 'Balancing efficiency and emissions through travel mode shifts: A multi-objective analysis from Beijing, China'
     year: '2026'
   EAMVOhUAAAAJ:4TOpqqG69KYC:
-    citations: 5
-    title: Multi-level Priors-Guided Diffusion-based Remote Sensing Image Super-Resolution
+    citations: 7
+    title: Multi-level priors-guided diffusion-based remote sensing image super-resolution
     year: '2025'
   EAMVOhUAAAAJ:7PzlFSSx8tAC:
     citations: 0
@@ -30,27 +30,31 @@ papers:
     title: Explainable urban renewal prediction at building-scale using hierarchical graph neural networks
     year: '2026'
   EAMVOhUAAAAJ:9yKSN-GCB0IC:
-    citations: 72
+    citations: 73
     title: Global urban subway development, construction material stocks, and embodied carbon emissions
     year: '2021'
   EAMVOhUAAAAJ:IjCSPb-OGe4C:
-    citations: 91
+    citations: 95
     title: Identifying spatiotemporal characteristics and driving factors for road traffic CO2 emissions
     year: '2022'
   EAMVOhUAAAAJ:KlAtU1dfN6UC:
-    citations: 22
+    citations: 26
     title: 'Spatially-optimized greenspace for more effective urban heat mitigation: Insights from regional cooling heterogeneity via explainable machine learning'
     year: '2025'
+  EAMVOhUAAAAJ:L8Ckcad2t8MC:
+    citations: 0
+    title: "Classification\u2010based greenspace exposure assessment reveals the compensatory role of urban cropland in greenspace equity"
+    year: '2026'
   EAMVOhUAAAAJ:LkGwnXOMwfcC:
     citations: 17
     title: "Matching end-of-life household vehicle generation and recycling capacity in Chinese cities: A spatio-temporal analysis for 2022\u20132050"
     year: '2023'
   EAMVOhUAAAAJ:M3ejUd6NZC8C:
-    citations: 5
+    citations: 7
     title: Background environment mitigate heat islands from inadequate urban green coverage while amplifying socioeconomic thermal inequities
     year: '2025'
   EAMVOhUAAAAJ:MXK_kJrjxJIC:
-    citations: 1
+    citations: 0
     title: 'Matching End-of-Life Household Vehicle Generation and Recycling Capacity in a City-Scale Setting: A Spatio-Temporal Analysis for 2022-2050'
     year: Unknown Year
   EAMVOhUAAAAJ:QIV2ME_5wuYC:
@@ -58,19 +62,19 @@ papers:
     title: "IceCT: A MoE\u2010based model for seasonal Arctic sea ice concentration and thickness prediction"
     year: '2026'
   EAMVOhUAAAAJ:Se3iqnhoufwC:
-    citations: 11
+    citations: 12
     title: High-resolution mapping of material stocks in the built environment across 50 Chinese cities
     year: '2023'
   EAMVOhUAAAAJ:Tyk-4Ss8FVUC:
     citations: 12
-    title: 'Doufu: a double fusion joint learning method for driving trajectory representation'
+    title: 'DouFu: a double fusion joint learning method for driving trajectory representation'
     year: '2022'
   EAMVOhUAAAAJ:ULOm3_A8WrAC:
-    citations: 10
+    citations: 13
     title: Quantifying the impact of building material stock and green infrastructure on urban heat island intensity
     year: '2025'
   EAMVOhUAAAAJ:UeHWp8X0CEIC:
-    citations: 4
+    citations: 5
     title: A novel carbon cycle turbulence index identifies environmental and ecological perturbations
     year: '2021'
   EAMVOhUAAAAJ:W7OEmFMy1HYC:
@@ -78,7 +82,7 @@ papers:
     title: Evaluating the human use efficiency of urban built environment and their coordinated development in a spatially refined manner
     year: '2023'
   EAMVOhUAAAAJ:WF5omc3nYNoC:
-    citations: 14
+    citations: 15
     title: Optimizing segmented trajectory data storage with HBase for improved spatio-temporal query efficiency
     year: '2023'
   EAMVOhUAAAAJ:Wp0gIr-vW9MC:
@@ -86,19 +90,23 @@ papers:
     title: Mining travel carbon emission patterns and evaluating equity in public transportation based on smart card data
     year: '2026'
   EAMVOhUAAAAJ:YOwf2qJgpHMC:
-    citations: 2
+    citations: 3
     title: 'Assessing carbon sink potentials in the built environment: A study of 40 Chinese cities using a bottom-up high-resolution approach'
     year: '2025'
   EAMVOhUAAAAJ:YsMSGLbcyi4C:
-    citations: 18
+    citations: 20
     title: 'GWRBoost: A geographically weighted gradient boosting method for explainable quantification of spatially-varying relationships'
     year: '2022'
+  EAMVOhUAAAAJ:ZeXyd9-uunAC:
+    citations: 0
+    title: "Beyond inequality to inequity: rethinking spatial and population disparities in green cooling effects across China\u2019s major cities"
+    year: '2026'
   EAMVOhUAAAAJ:Zph67rFs4hoC:
-    citations: 7
+    citations: 8
     title: Traffic prediction and road space optimization for the integration of dockless bike-sharing and subway
     year: '2025'
   EAMVOhUAAAAJ:_FxGoFyzp5QC:
-    citations: 42
+    citations: 43
     title: Big geodata reveals spatial patterns of built environment stocks across and within cities in China
     year: '2024'
   EAMVOhUAAAAJ:_kc_bZDykSQC:
@@ -110,7 +118,7 @@ papers:
     title: 'Unveiling the overestimated carbon reductions of dockless bike-sharing: A data-driven analysis'
     year: '2026'
   EAMVOhUAAAAJ:d1gkVwhDpl0C:
-    citations: 52
+    citations: 53
     title: "Perceiving Beijing\u2019s \u201Ccity image\u201D across different groups based on geotagged social media data"
     year: '2020'
   EAMVOhUAAAAJ:dhFuZR0502QC:
@@ -118,15 +126,15 @@ papers:
     title: 'GWRBoost: A Geographically Weighted Gradient Boosting Framework for Enhanced Explainable Quantification of Spatially Varying Relationships'
     year: '2026'
   EAMVOhUAAAAJ:eQOLeE2rZwMC:
-    citations: 30
+    citations: 31
     title: "High\u2010resolution quantification of building stock using multi\u2010source remote sensing imagery and deep learning"
     year: '2023'
   EAMVOhUAAAAJ:hqOjcs7Dif8C:
-    citations: 5
-    title: 'Spatial Blockchain: Enhancing Spatial Queries and Applications through Integrating Blockchain and Spatial Database Technologies'
+    citations: 3
+    title: 'Spatial Blockchain: Enhancing spatial queries and applications through integrating Blockchain and spatial database technologies'
     year: '2023'
   EAMVOhUAAAAJ:kNdYIx-mwKoC:
-    citations: 6
+    citations: 9
     title: 'Assessing and mitigating the carbon emissions from illegal urban buildings: A spatial lifecycle analysis'
     year: '2025'
   EAMVOhUAAAAJ:mVmsd5A6BfQC:
@@ -134,7 +142,7 @@ papers:
     title: Multimodal large language models meet self-supervised diffusion for real-world aerial image super-resolution
     year: '2026'
   EAMVOhUAAAAJ:qjMakFHDy7sC:
-    citations: 41
+    citations: 42
     title: 'Site selection for hybrid offshore wind and wave power plants using a four-stage framework: A case study in Hainan, China'
     year: '2022'
   EAMVOhUAAAAJ:roLk4NBRz8UC:
@@ -147,9 +155,9 @@ papers:
     year: '2021'
   EAMVOhUAAAAJ:ufrVoPGSRksC:
     citations: 2
-    title: "\u57CE\u5E02\u5EFA\u6210\u73AF\u5883\u5B58\u91CF\u7684\u7A7A\u95F4\u8BA1\u7B97: \u8FDB\u5C55\u53CA\u5C55\u671B"
+    title: "\u57CE\u5E02\u5EFA\u6210\u73AF\u5883\u5B58\u91CF\u7684\u7A7A\u95F4\u8BA1\u7B97: \u8FDB\u5C55\u53CA\u5C55\u671B."
     year: '2022'
   EAMVOhUAAAAJ:zYLM7Y9cAGgC:
-    citations: 64
+    citations: 65
     title: 'ConvGCN-RF: A hybrid learning model for commuting flow prediction considering geographical semantics and neighborhood effects'
     year: '2023'
