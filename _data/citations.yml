@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-28'
+  last_updated: '2026-08-31'
 papers:
   EAMVOhUAAAAJ:0EnyYjriUFMC:
     citations: 76
@@ -10,7 +10,7 @@ papers:
     title: High-resolution mapping of the urban built environment stocks in Beijing
     year: '2020'
   EAMVOhUAAAAJ:4DMP91E08xMC:
-    citations: 1
+    citations: 2
     title: 'Balancing efficiency and emissions through travel mode shifts: A multi-objective analysis from Beijing, China'
     year: '2026'
   EAMVOhUAAAAJ:4TOpqqG69KYC:
@@ -22,7 +22,7 @@ papers:
     title: Urban environment intensifies energy consumption sensitivity through the urban heat island effect
     year: '2026'
   EAMVOhUAAAAJ:8k81kl-MbHgC:
-    citations: 5
+    citations: 6
     title: "A scene\u2013object\u2013economy framework for identifying and validating urban\u2013rural fringe using multisource geospatial big data"
     year: '2024'
   EAMVOhUAAAAJ:9ZlFYXVOiuMC:
@@ -94,7 +94,7 @@ papers:
     title: 'Assessing carbon sink potentials in the built environment: A study of 40 Chinese cities using a bottom-up high-resolution approach'
     year: '2025'
   EAMVOhUAAAAJ:YsMSGLbcyi4C:
-    citations: 22
+    citations: 23
     title: 'GWRBoost: A geographically weighted gradient boosting method for explainable quantification of spatially-varying relationships'
     year: '2022'
   EAMVOhUAAAAJ:ZeXyd9-uunAC:
@@ -138,7 +138,7 @@ papers:
     title: 'Assessing and mitigating the carbon emissions from illegal urban buildings: A spatial lifecycle analysis'
     year: '2025'
   EAMVOhUAAAAJ:mVmsd5A6BfQC:
-    citations: 0
+    citations: 1
     title: Multimodal large language models meet self-supervised diffusion for real-world aerial image super-resolution
     year: '2026'
   EAMVOhUAAAAJ:qjMakFHDy7sC:
